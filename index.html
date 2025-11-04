@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>German Verb Conjugation Webapp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      German Verb Conjugation Practice
+    </header>
+    <div class="controls">
+      <div class="main-btns">
+        <button id="btnConjugations" class="active">Conjugations</button>
+        <button id="btnTester">Tester</button>
+        <button id="btnSearch">Search</button>
+      </div>
+
+      <div class="pronoun-btns">
+        <button data-pronoun="ich" class="active">ich</button>
+        <button data-pronoun="du">du</button>
+        <button data-pronoun="er">er</button>
+        <button data-pronoun="wir">wir</button>
+        <button data-pronoun="ihr">ihr</button>
+        <button data-pronoun="sie">sie</button>
+      </div>
+
+      <div class="speed-control">
+        <label for="speed">Voice speed:</label>
+        <input type="range" id="speed" min="0.7" max="1.5" step="0.1" value="0.9" />
+        <span id="speedVal">0.9x</span>
+      </div>
+
+      <button id="playAllBtn" class="btn btn-play-all">Play All</button>
+    </div>
+
+    <!-- Panel: Conjugations -->
+    <div id="panelConjugations" class="pronoun-panel active">
+      <table id="verbsTable">
+        <thead>
+          <tr>
+            <th>Verb</th>
+            <th>Meaning</th>
+            <th>Present</th>
+            <th>Past</th>
+            <th>Future</th>
+            <th>Speak</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <!-- Panel: Tester -->
+    <div id="panelTester" class="pronoun-panel">
+      <h2>Tester Panel (Coming Soon)</h2>
+      <p>Practice section can be added here...</p>
+    </div>
+
+    <!-- Panel: Search -->
+    <div id="panelSearch" class="pronoun-panel">
+      <div class="search-container" style="margin-bottom: 1rem;">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter [translate:German] verb spelling[/translate]"
+          style="padding: 0.6rem; width: 300px; font-size: 1rem;"
+        />
+        <button id="searchBtn" class="btn btn-play-all" style="margin-left: 0.5rem;">Search</button>
+      </div>
+      <table id="searchResultsTable">
+        <thead>
+          <tr>
+            <th>Pronoun</th>
+            <th>Present</th>
+            <th>Past</th>
+            <th>Future</th>
+            <th>Speak</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p id="searchMessage" style="margin-top: 1rem; color: #999; font-style: italic;"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
