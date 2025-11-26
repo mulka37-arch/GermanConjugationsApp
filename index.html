@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>German Verb Conjugation Webapp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -10,6 +11,7 @@
     <header>
       German Verb Conjugation Practice
     </header>
+
     <div class="controls">
       <div class="main-btns">
         <button id="btnConjugations" class="active">Conjugations</button>
@@ -54,21 +56,88 @@
 
     <!-- Panel: Tester -->
     <div id="panelTester" class="pronoun-panel">
-      <h2>Tester Panel (Coming Soon)</h2>
-      <p>Practice section can be added here...</p>
+      <div class="tester-mode-switch">
+        <button id="btnMeaningTest" class="active">Meaning Test</button>
+        <button id="btnConjugationTest">Conjugation Test</button>
+      </div>
+
+      <div class="tester-alpha-filter">
+        <div class="alpha-scroll">
+          <button class="alpha-chip active" data-letter="ALL">All</button>
+          <button class="alpha-chip" data-letter="A">A</button>
+          <button class="alpha-chip" data-letter="B">B</button>
+          <button class="alpha-chip" data-letter="C">C</button>
+          <button class="alpha-chip" data-letter="D">D</button>
+          <button class="alpha-chip" data-letter="E">E</button>
+          <button class="alpha-chip" data-letter="F">F</button>
+          <button class="alpha-chip" data-letter="G">G</button>
+          <button class="alpha-chip" data-letter="H">H</button>
+          <button class="alpha-chip" data-letter="I">I</button>
+          <button class="alpha-chip" data-letter="J">J</button>
+          <button class="alpha-chip" data-letter="K">K</button>
+          <button class="alpha-chip" data-letter="L">L</button>
+          <button class="alpha-chip" data-letter="M">M</button>
+          <button class="alpha-chip" data-letter="N">N</button>
+          <button class="alpha-chip" data-letter="O">O</button>
+          <button class="alpha-chip" data-letter="P">P</button>
+          <button class="alpha-chip" data-letter="Q">Q</button>
+          <button class="alpha-chip" data-letter="R">R</button>
+          <button class="alpha-chip" data-letter="S">S</button>
+          <button class="alpha-chip" data-letter="T">T</button>
+          <button class="alpha-chip" data-letter="U">U</button>
+          <button class="alpha-chip" data-letter="V">V</button>
+          <button class="alpha-chip" data-letter="W">W</button>
+          <button class="alpha-chip" data-letter="X">X</button>
+          <button class="alpha-chip" data-letter="Y">Y</button>
+          <button class="alpha-chip" data-letter="Z">Z</button>
+        </div>
+      </div>
+
+      <div id="testerConjugationTenseControls" class="tester-submodes hidden">
+        <span class="tester-submodes-label">Conjugation tense:</span>
+        <button class="tense-btn active" data-tense="present">Present</button>
+        <button class="tense-btn" data-tense="past">Past</button>
+        <button class="tense-btn" data-tense="future">Future</button>
+      </div>
+
+      <div id="testerContent" class="tester-content">
+        <!-- Dynamic test content goes here -->
+      </div>
+
+      <div id="testerFeedback" class="tester-feedback"></div>
+      <div id="testerScore" class="tester-score">Score: 0 / 0</div>
+
+      <div class="tester-actions">
+        <button id="testerResetBtn" class="btn tester-reset">Reset</button>
+        <button id="testerNextBtn" class="btn tester-next">Next</button>
+      </div>
     </div>
 
     <!-- Panel: Search -->
     <div id="panelSearch" class="pronoun-panel">
-      <div class="search-container" style="margin-bottom: 1rem;">
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="Enter [translate:German] verb spelling[/translate]"
-          style="padding: 0.6rem; width: 300px; font-size: 1rem;"
-        />
-        <button id="searchBtn" class="btn btn-play-all" style="margin-left: 0.5rem;">Search</button>
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Enter [translate:German] verb spelling[/translate]"
+          />
+          <div id="autocompleteList" class="autocomplete-list"></div>
+        </div>
+        <button id="searchBtn" class="btn btn-play-all">Search</button>
       </div>
+
+      <div class="umlaut-keyboard" id="umlautKeyboard">
+        <span class="umlaut-label">Umlauts:</span>
+        <button type="button" class="umlaut-key" data-char="ä">ä</button>
+        <button type="button" class="umlaut-key" data-char="ö">ö</button>
+        <button type="button" class="umlaut-key" data-char="ü">ü</button>
+        <button type="button" class="umlaut-key" data-char="Ä">Ä</button>
+        <button type="button" class="umlaut-key" data-char="Ö">Ö</button>
+        <button type="button" class="umlaut-key" data-char="Ü">Ü</button>
+        <button type="button" class="umlaut-key" data-char="ß">ß</button>
+      </div>
+
       <table id="searchResultsTable">
         <thead>
           <tr>
@@ -81,7 +150,7 @@
         </thead>
         <tbody></tbody>
       </table>
-      <p id="searchMessage" style="margin-top: 1rem; color: #999; font-style: italic;"></p>
+      <p id="searchMessage" class="search-message"></p>
     </div>
   </div>
 

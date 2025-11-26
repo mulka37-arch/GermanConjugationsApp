@@ -13,7 +13,7 @@ const pronounData = {
     "English meaning": "to groan, creak",
     "present tense": "ich ächze",
     "past tense": "ich ächzte",
-    "future tense": ""
+    "future tense": "ich werde ächzen"
   },
   {
     "German verb": "ändern",
@@ -23,18 +23,25 @@ const pronounData = {
     "future tense": "ich werde ändern"
   },
   {
+    "German verb": "anfangen",
+    "English meaning": "to begin, start",
+    "present tense": "ich fange an",
+    "past tense": "ich fing an",
+    "future tense": "ich werde anfangen"
+  },
+  {
+    "German verb": "ankommen",
+    "English meaning": "to arrive; succeed; matter",
+    "present tense": "ich komme an",
+    "past tense": "ich kam an",
+    "future tense": "ich werde ankommen"
+  },
+  {
     "German verb": "arbeiten",
     "English meaning": "to work",
     "present tense": "ich arbeite",
     "past tense": "ich arbeitete",
     "future tense": "ich werde arbeiten"
-  },
-  {
-    "German verb": "essen",
-    "English meaning": "to eat",
-    "present tense": "ich esse",
-    "past tense": "ich aß",
-    "future tense": "ich werde essen"
   },
   {
     "German verb": "atmen",
@@ -44,32 +51,53 @@ const pronounData = {
     "future tense": "ich werde atmen"
   },
   {
+    "German verb": "aufhalten",
+    "English meaning": "to stop, delay, arrest",
+    "present tense": "ich halte auf",
+    "past tense": "ich hielt auf",
+    "future tense": "ich werde aufhalten"
+  },
+  {
+    "German verb": "aufmachen",
+    "English meaning": "to open; present, feature",
+    "present tense": "ich mache auf",
+    "past tense": "ich machte auf",
+    "future tense": "ich werde aufmachen"
+  },
+  {
+    "German verb": "ausgeben",
+    "English meaning": "to spend; deal (cards); treat",
+    "present tense": "ich gebe aus",
+    "past tense": "ich gab aus",
+    "future tense": "ich werde ausgeben"
+  },
+  {
+    "German verb": "auskommen",
+    "English meaning": "to get along; manage",
+    "present tense": "ich komme aus",
+    "past tense": "ich kam aus",
+    "future tense": "ich werde auskommen"
+  },
+  {
+    "German verb": "ausstellen",
+    "English meaning": "to exhibit, expose; write out",
+    "present tense": "ich stelle aus",
+    "past tense": "ich stellte aus",
+    "future tense": "ich werde ausstellen"
+  },
+  {
+    "German verb": "backen",
+    "English meaning": "to bake",
+    "present tense": "ich backe",
+    "past tense": "ich buk",
+    "future tense": "ich werde backen"
+  },
+  {
     "German verb": "baden",
     "English meaning": "to bathe",
     "present tense": "ich bade",
     "past tense": "ich badete",
     "future tense": "ich werde baden"
-  },
-  {
-    "German verb": "bergen",
-    "English meaning": "to salvage; conceal",
-    "present tense": "ich berge",
-    "past tense": "ich barg",
-    "future tense": "ich werde bergen"
-  },
-  {
-    "German verb": "bersten",
-    "English meaning": "to burst",
-    "present tense": "ich berste",
-    "past tense": "ich barst",
-    "future tense": "ich werde bersten"
-  },
-  {
-    "German verb": "bitten",
-    "English meaning": "to ask for, request",
-    "present tense": "ich bitte",
-    "past tense": "ich bat",
-    "future tense": "ich werde bitten"
   },
   {
     "German verb": "bauen",
@@ -93,20 +121,6 @@ const pronounData = {
     "future tense": "ich werde bedeuten"
   },
   {
-    "German verb": "sich bedienen",
-    "English meaning": "to help oneself; wait on",
-    "present tense": "ich bediene mich",
-    "past tense": "ich bediente mich",
-    "future tense": "ich werde mich bedienen"
-  },
-  {
-    "German verb": "sich beeilen",
-    "English meaning": "to hurry",
-    "present tense": "ich beeile mich",
-    "past tense": "ich beeilte mich",
-    "future tense": "ich werde mich beeilen"
-  },
-  {
     "German verb": "beeindrucken",
     "English meaning": "to impress",
     "present tense": "ich beeindrucke",
@@ -121,25 +135,11 @@ const pronounData = {
     "future tense": "ich werde beeinflussen"
   },
   {
-    "German verb": "sich befinden",
-    "English meaning": "to be, feel",
-    "present tense": "ich befinde mich",
-    "past tense": "ich befand mich",
-    "future tense": "ich werde mich befinden"
-  },
-  {
     "German verb": "befreien",
     "English meaning": "to liberate, set free; exempt",
     "present tense": "ich befreie",
     "past tense": "ich befreite",
     "future tense": "ich werde befreien"
-  },
-  {
-    "German verb": "beginnen",
-    "English meaning": "to begin",
-    "present tense": "ich beginne",
-    "past tense": "ich begann",
-    "future tense": "ich werde beginnen"
   },
   {
     "German verb": "begegnen",
@@ -149,11 +149,25 @@ const pronounData = {
     "future tense": "ich werde begegnen"
   },
   {
+    "German verb": "beginnen",
+    "English meaning": "to begin",
+    "present tense": "ich beginne",
+    "past tense": "ich begann",
+    "future tense": "ich werde beginnen"
+  },
+  {
     "German verb": "begleiten",
     "English meaning": "to accompany",
     "present tense": "ich begleite",
     "past tense": "ich begleitete",
     "future tense": "ich werde begleiten"
+  },
+  {
+    "German verb": "beißen",
+    "English meaning": "to bite",
+    "present tense": "ich beiße",
+    "past tense": "ich biss",
+    "future tense": "ich werde beißen"
   },
   {
     "German verb": "bejahen",
@@ -170,11 +184,25 @@ const pronounData = {
     "future tense": "ich werde bekommen"
   },
   {
+    "German verb": "beleben",
+    "English meaning": "to enliven, animate; cheer",
+    "present tense": "ich belebe",
+    "past tense": "ich belebte",
+    "future tense": "ich werde beleben"
+  },
+  {
     "German verb": "beleidigen",
     "English meaning": "to insult",
     "present tense": "ich beleidige",
     "past tense": "ich beleidigte",
     "future tense": "ich werde beleidigen"
+  },
+  {
+    "German verb": "bergen",
+    "English meaning": "to salvage; conceal",
+    "present tense": "ich berge",
+    "past tense": "ich barg",
+    "future tense": "ich werde bergen"
   },
   {
     "German verb": "berichten",
@@ -184,11 +212,11 @@ const pronounData = {
     "future tense": "ich werde berichten"
   },
   {
-    "German verb": "besitzen",
-    "English meaning": "to own, possess",
-    "present tense": "ich besitze",
-    "past tense": "ich besaß",
-    "future tense": "ich werde besitzen"
+    "German verb": "bersten",
+    "English meaning": "to burst",
+    "present tense": "ich berste",
+    "past tense": "ich barst",
+    "future tense": "ich werde bersten"
   },
   {
     "German verb": "beschäftigen",
@@ -196,6 +224,13 @@ const pronounData = {
     "present tense": "ich beschäftige",
     "past tense": "ich beschäftigte",
     "future tense": "ich werde beschäftigen"
+  },
+  {
+    "German verb": "besitzen",
+    "English meaning": "to own, possess",
+    "present tense": "ich besitze",
+    "past tense": "ich besaß",
+    "future tense": "ich werde besitzen"
   },
   {
     "German verb": "bestehen",
@@ -247,11 +282,32 @@ const pronounData = {
     "future tense": "ich werde bezeichnen"
   },
   {
-    "German verb": "beißen",
-    "English meaning": "to bite",
-    "present tense": "ich beiße",
-    "past tense": "ich biss",
-    "future tense": "ich werde beißen"
+    "German verb": "biegen",
+    "English meaning": "to bend; turn",
+    "present tense": "ich biege",
+    "past tense": "ich bog",
+    "future tense": "ich werde biegen"
+  },
+  {
+    "German verb": "bieten",
+    "English meaning": "to offer",
+    "present tense": "ich biete",
+    "past tense": "ich bot",
+    "future tense": "ich werde bieten"
+  },
+  {
+    "German verb": "bitten",
+    "English meaning": "to ask for, request",
+    "present tense": "ich bitte",
+    "past tense": "ich bat",
+    "future tense": "ich werde bitten"
+  },
+  {
+    "German verb": "bleiben",
+    "English meaning": "to remain, stay",
+    "present tense": "ich bleibe",
+    "past tense": "ich blieb",
+    "future tense": "ich werde bleiben"
   },
   {
     "German verb": "blühen",
@@ -261,18 +317,18 @@ const pronounData = {
     "future tense": "ich werde blühen"
   },
   {
-    "German verb": "biegen",
-    "English meaning": "to bend; turn",
-    "present tense": "ich biege",
-    "past tense": "ich bog",
-    "future tense": "ich werde biegen"
+    "German verb": "bluten",
+    "English meaning": "to bleed",
+    "present tense": "ich blute",
+    "past tense": "ich blutete",
+    "future tense": "ich werde bluten"
   },
   {
-    "German verb": "bringen",
-    "English meaning": "to bring",
-    "present tense": "ich bringe",
-    "past tense": "ich brachte",
-    "future tense": "ich werde bringen"
+    "German verb": "braten",
+    "English meaning": "to roast, fry",
+    "present tense": "ich brate",
+    "past tense": "ich briet",
+    "future tense": "ich werde braten"
   },
   {
     "German verb": "brauchen",
@@ -282,13 +338,6 @@ const pronounData = {
     "future tense": "ich werde brauchen"
   },
   {
-    "German verb": "brausen",
-    "English meaning": "to storm, roar; take a shower",
-    "present tense": "ich brause",
-    "past tense": "ich brauste",
-    "future tense": "ich werde brausen"
-  },
-  {
     "German verb": "brauen",
     "English meaning": "to brew",
     "present tense": "ich braue",
@@ -296,11 +345,32 @@ const pronounData = {
     "future tense": "ich werde brauen"
   },
   {
-    "German verb": "braten",
-    "English meaning": "to roast, fry",
-    "present tense": "ich brate",
-    "past tense": "ich briet",
-    "future tense": "ich werde braten"
+    "German verb": "brausen",
+    "English meaning": "to storm, roar; take a shower",
+    "present tense": "ich brause",
+    "past tense": "ich brauste",
+    "future tense": "ich werde brausen"
+  },
+  {
+    "German verb": "brechen",
+    "English meaning": "to break",
+    "present tense": "ich breche",
+    "past tense": "ich brach",
+    "future tense": "ich werde brechen"
+  },
+  {
+    "German verb": "brennen",
+    "English meaning": "to burn",
+    "present tense": "ich brenne",
+    "past tense": "ich brannte",
+    "future tense": "ich werde brennen"
+  },
+  {
+    "German verb": "bringen",
+    "English meaning": "to bring",
+    "present tense": "ich bringe",
+    "past tense": "ich brachte",
+    "future tense": "ich werde bringen"
   },
   {
     "German verb": "brüllen",
@@ -317,25 +387,11 @@ const pronounData = {
     "future tense": "ich werde buchen"
   },
   {
-    "German verb": "backen",
-    "English meaning": "to bake",
-    "present tense": "ich backe",
-    "past tense": "ich buk",
-    "future tense": "ich werde backen"
-  },
-  {
     "German verb": "bürsten",
     "English meaning": "to brush",
     "present tense": "ich bürste",
     "past tense": "ich bürstete",
     "future tense": "ich werde bürsten"
-  },
-  {
-    "German verb": "denken",
-    "English meaning": "to think",
-    "present tense": "ich denke",
-    "past tense": "ich dachte",
-    "future tense": "ich werde denken"
   },
   {
     "German verb": "dämpfen",
@@ -350,6 +406,13 @@ const pronounData = {
     "present tense": "ich danke",
     "past tense": "ich dankte",
     "future tense": "ich werde danken"
+  },
+  {
+    "German verb": "denken",
+    "English meaning": "to think",
+    "present tense": "ich denke",
+    "past tense": "ich dachte",
+    "future tense": "ich werde denken"
   },
   {
     "German verb": "dichten",
@@ -371,6 +434,13 @@ const pronounData = {
     "present tense": "ich donnere",
     "past tense": "ich donnerte",
     "future tense": "ich werde donnern"
+  },
+  {
+    "German verb": "dringen",
+    "English meaning": "to penetrate; insist",
+    "present tense": "ich dringe",
+    "past tense": "ich drang",
+    "future tense": "ich werde dringen"
   },
   {
     "German verb": "drucken",
@@ -401,11 +471,11 @@ const pronounData = {
     "future tense": "ich werde ehren"
   },
   {
-    "German verb": "empfehlen",
-    "English meaning": "to recommend",
-    "present tense": "ich empfehle",
-    "past tense": "ich empfahl",
-    "future tense": "ich werde empfehlen"
+    "German verb": "einkaufen",
+    "English meaning": "to shop, buy",
+    "present tense": "ich kaufe ein",
+    "past tense": "ich kaufte ein",
+    "future tense": "ich werde einkaufen"
   },
   {
     "German verb": "empfangen",
@@ -413,6 +483,13 @@ const pronounData = {
     "present tense": "ich empfange",
     "past tense": "ich empfing",
     "future tense": "ich werde empfangen"
+  },
+  {
+    "German verb": "empfehlen",
+    "English meaning": "to recommend",
+    "present tense": "ich empfehle",
+    "past tense": "ich empfahl",
+    "future tense": "ich werde empfehlen"
   },
   {
     "German verb": "entbehren",
@@ -434,6 +511,13 @@ const pronounData = {
     "present tense": "ich entführe",
     "past tense": "ich entführte",
     "future tense": "ich werde entführen"
+  },
+  {
+    "German verb": "enthalten",
+    "English meaning": "to contain",
+    "present tense": "ich enthalte",
+    "past tense": "ich enthielt",
+    "future tense": "ich werde enthalten"
   },
   {
     "German verb": "entkommen",
@@ -485,13 +569,6 @@ const pronounData = {
     "future tense": "ich werde erinnern"
   },
   {
-    "German verb": "sich erkälten",
-    "English meaning": "to catch a cold",
-    "present tense": "ich erkälte mich",
-    "past tense": "ich erkältete mich",
-    "future tense": "ich werde mich erkälten"
-  },
-  {
     "German verb": "erklären",
     "English meaning": "to explain",
     "present tense": "ich erkläre",
@@ -541,18 +618,18 @@ const pronounData = {
     "future tense": "ich werde erschrecken"
   },
   {
-    "German verb": "erwähnen",
-    "English meaning": "to mention",
-    "present tense": "ich erwähne",
-    "past tense": "ich erwähnte",
-    "future tense": "ich werde erwähnen"
-  },
-  {
     "German verb": "erwägen",
     "English meaning": "to consider",
     "present tense": "ich erwäge",
     "past tense": "ich erwog",
     "future tense": "ich werde erwägen"
+  },
+  {
+    "German verb": "erwähnen",
+    "English meaning": "to mention",
+    "present tense": "ich erwähne",
+    "past tense": "ich erwähnte",
+    "future tense": "ich werde erwähnen"
   },
   {
     "German verb": "erzählen",
@@ -562,11 +639,18 @@ const pronounData = {
     "future tense": "ich werde erzählen"
   },
   {
-    "German verb": "fassen",
-    "English meaning": "to grasp, seize",
-    "present tense": "ich fasse",
-    "past tense": "ich fasste",
-    "future tense": "ich werde fassen"
+    "German verb": "essen",
+    "English meaning": "to eat",
+    "present tense": "ich esse",
+    "past tense": "ich aß",
+    "future tense": "ich werde essen"
+  },
+  {
+    "German verb": "fahren",
+    "English meaning": "to travel; drive; ride; go",
+    "present tense": "ich fahre",
+    "past tense": "ich fuhr",
+    "future tense": "ich werde fahren"
   },
   {
     "German verb": "fallen",
@@ -583,11 +667,39 @@ const pronounData = {
     "future tense": "ich werde fangen"
   },
   {
-    "German verb": "anfangen",
-    "English meaning": "to begin, start",
-    "present tense": "ich fange an",
-    "past tense": "ich fing an",
-    "future tense": "ich werde anfangen"
+    "German verb": "fassen",
+    "English meaning": "to grasp, seize",
+    "present tense": "ich fasse",
+    "past tense": "ich fasste",
+    "future tense": "ich werde fassen"
+  },
+  {
+    "German verb": "fechten",
+    "English meaning": "to fence, fight",
+    "present tense": "ich fechte",
+    "past tense": "ich focht",
+    "future tense": "ich werde fechten"
+  },
+  {
+    "German verb": "finden",
+    "English meaning": "to find",
+    "present tense": "ich finde",
+    "past tense": "ich fand",
+    "future tense": "ich werde finden"
+  },
+  {
+    "German verb": "fliegen",
+    "English meaning": "to fly",
+    "present tense": "ich fliege",
+    "past tense": "ich flog",
+    "future tense": "ich werde fliegen"
+  },
+  {
+    "German verb": "fliehen",
+    "English meaning": "to flee",
+    "present tense": "ich fliehe",
+    "past tense": "ich floh",
+    "future tense": "ich werde fliehen"
   },
   {
     "German verb": "fließen",
@@ -604,13 +716,6 @@ const pronounData = {
     "future tense": "ich werde fluchen"
   },
   {
-    "German verb": "fechten",
-    "English meaning": "to fence, fight",
-    "present tense": "ich fechte",
-    "past tense": "ich focht",
-    "future tense": "ich werde fechten"
-  },
-  {
     "German verb": "folgen",
     "English meaning": "to follow",
     "present tense": "ich folge",
@@ -623,6 +728,13 @@ const pronounData = {
     "present tense": "ich frage",
     "past tense": "ich fragte",
     "future tense": "ich werde fragen"
+  },
+  {
+    "German verb": "fressen",
+    "English meaning": "to eat, feed, devour",
+    "present tense": "ich fresse",
+    "past tense": "ich fraß",
+    "future tense": "ich werde fressen"
   },
   {
     "German verb": "frieren",
@@ -646,13 +758,6 @@ const pronounData = {
     "future tense": "ich werde fühlen"
   },
   {
-    "German verb": "fahren",
-    "English meaning": "to travel; drive; ride; go",
-    "present tense": "ich fahre",
-    "past tense": "ich fuhr",
-    "future tense": "ich werde fahren"
-  },
-  {
     "German verb": "führen",
     "English meaning": "to lead; keep; carry",
     "present tense": "ich führe",
@@ -667,25 +772,11 @@ const pronounData = {
     "future tense": "ich werde fürchten"
   },
   {
-    "German verb": "ausgeben",
-    "English meaning": "to spend; deal (cards); treat",
-    "present tense": "ich gebe aus",
-    "past tense": "ich gab aus",
-    "future tense": "ich werde ausgeben"
-  },
-  {
     "German verb": "gähnen",
     "English meaning": "to yawn",
     "present tense": "ich gähne",
     "past tense": "ich gähnte",
     "future tense": "ich werde gähnen"
-  },
-  {
-    "German verb": "gelten",
-    "English meaning": "to be valid, be worth",
-    "present tense": "ich gelte",
-    "past tense": "ich galt",
-    "future tense": "ich werde gelten"
   },
   {
     "German verb": "gebären",
@@ -695,11 +786,25 @@ const pronounData = {
     "future tense": "ich werde gebären"
   },
   {
+    "German verb": "geben",
+    "English meaning": "to give",
+    "present tense": "ich gebe",
+    "past tense": "ich gab",
+    "future tense": "ich werde geben"
+  },
+  {
     "German verb": "gebrauchen",
     "English meaning": "to use",
     "present tense": "ich gebrauche",
     "past tense": "ich gebrauchte",
     "future tense": "ich werde gebrauchen"
+  },
+  {
+    "German verb": "gehen",
+    "English meaning": "to go, walk",
+    "present tense": "ich gehe",
+    "past tense": "ich ging",
+    "future tense": "ich werde gehen"
   },
   {
     "German verb": "gehören",
@@ -714,6 +819,13 @@ const pronounData = {
     "present tense": "ich gelinge",
     "past tense": "ich gelang",
     "future tense": "ich werde gelingen"
+  },
+  {
+    "German verb": "gelten",
+    "English meaning": "to be valid, be worth",
+    "present tense": "ich gelte",
+    "past tense": "ich galt",
+    "future tense": "ich werde gelten"
   },
   {
     "German verb": "genesen",
@@ -744,11 +856,11 @@ const pronounData = {
     "future tense": "ich werde gewinnen"
   },
   {
-    "German verb": "sich gewöhnen",
-    "English meaning": "to get used to",
-    "present tense": "ich gewöhne mich",
-    "past tense": "ich gewöhnte mich",
-    "future tense": "ich werde mich gewöhnen"
+    "German verb": "gießen",
+    "English meaning": "to pour; cast (metal)",
+    "present tense": "ich gieße",
+    "past tense": "ich goss",
+    "future tense": "ich werde gießen"
   },
   {
     "German verb": "glänzen",
@@ -800,11 +912,11 @@ const pronounData = {
     "future tense": "ich werde glühen"
   },
   {
-    "German verb": "gießen",
-    "English meaning": "to pour; cast (metal)",
-    "present tense": "ich gieße",
-    "past tense": "ich goss",
-    "future tense": "ich werde gießen"
+    "German verb": "graben",
+    "English meaning": "to dig",
+    "present tense": "ich grabe",
+    "past tense": "ich grub",
+    "future tense": "ich werde graben"
   },
   {
     "German verb": "greifen",
@@ -821,13 +933,6 @@ const pronounData = {
     "future tense": "ich werde grollen"
   },
   {
-    "German verb": "graben",
-    "English meaning": "to dig",
-    "present tense": "ich grabe",
-    "past tense": "ich grub",
-    "future tense": "ich werde graben"
-  },
-  {
     "German verb": "grüßen",
     "English meaning": "to greet",
     "present tense": "ich grüße",
@@ -842,53 +947,11 @@ const pronounData = {
     "future tense": "ich werde gucken"
   },
   {
-    "German verb": "helfen",
-    "English meaning": "to help, aid, assist",
-    "present tense": "ich helfe",
-    "past tense": "ich half",
-    "future tense": "ich werde helfen"
-  },
-  {
-    "German verb": "handeln",
-    "English meaning": "to act; trade, deal",
-    "present tense": "ich handele",
-    "past tense": "ich handelte",
-    "future tense": "ich werde handeln"
-  },
-  {
-    "German verb": "hassen",
-    "English meaning": "to hate",
-    "present tense": "ich hasse",
-    "past tense": "ich hasste",
-    "future tense": "ich werde hassen"
-  },
-  {
     "German verb": "haben",
     "English meaning": "to have",
     "present tense": "ich habe",
     "past tense": "ich hatte",
     "future tense": "ich werde haben"
-  },
-  {
-    "German verb": "heiraten",
-    "English meaning": "to marry",
-    "present tense": "ich heirate",
-    "past tense": "ich heiratete",
-    "future tense": "ich werde heiraten"
-  },
-  {
-    "German verb": "heizen",
-    "English meaning": "to heat",
-    "present tense": "ich heize",
-    "past tense": "ich heizte",
-    "future tense": "ich werde heizen"
-  },
-  {
-    "German verb": "hetzen",
-    "English meaning": "to hunt; rush about; incite",
-    "present tense": "ich hetze",
-    "past tense": "ich hetzte",
-    "future tense": "ich werde hetzen"
   },
   {
     "German verb": "halten",
@@ -898,11 +961,32 @@ const pronounData = {
     "future tense": "ich werde halten"
   },
   {
-    "German verb": "aufhalten",
-    "English meaning": "to stop, delay, arrest",
-    "present tense": "ich halte auf",
-    "past tense": "ich hielt auf",
-    "future tense": "ich werde aufhalten"
+    "German verb": "handeln",
+    "English meaning": "to act; trade, deal",
+    "present tense": "ich handele",
+    "past tense": "ich handelte",
+    "future tense": "ich werde handeln"
+  },
+  {
+    "German verb": "hängen",
+    "English meaning": "to hang",
+    "present tense": "ich hänge",
+    "past tense": "ich hing",
+    "future tense": "ich werde hängen"
+  },
+  {
+    "German verb": "hassen",
+    "English meaning": "to hate",
+    "present tense": "ich hasse",
+    "past tense": "ich hasste",
+    "future tense": "ich werde hassen"
+  },
+  {
+    "German verb": "heiraten",
+    "English meaning": "to marry",
+    "present tense": "ich heirate",
+    "past tense": "ich heiratete",
+    "future tense": "ich werde heiraten"
   },
   {
     "German verb": "heißen",
@@ -912,11 +996,25 @@ const pronounData = {
     "future tense": "ich werde heißen"
   },
   {
-    "German verb": "hängen",
-    "English meaning": "to hang",
-    "present tense": "ich hänge",
-    "past tense": "ich hing",
-    "future tense": "ich werde hängen"
+    "German verb": "heizen",
+    "English meaning": "to heat",
+    "present tense": "ich heize",
+    "past tense": "ich heizte",
+    "future tense": "ich werde heizen"
+  },
+  {
+    "German verb": "helfen",
+    "English meaning": "to help, aid, assist",
+    "present tense": "ich helfe",
+    "past tense": "ich half",
+    "future tense": "ich werde helfen"
+  },
+  {
+    "German verb": "hetzen",
+    "English meaning": "to hunt; rush about; incite",
+    "present tense": "ich hetze",
+    "past tense": "ich hetzte",
+    "future tense": "ich werde hetzen"
   },
   {
     "German verb": "hoffen",
@@ -940,39 +1038,11 @@ const pronounData = {
     "future tense": "ich werde hüpfen"
   },
   {
-    "German verb": "sich interessieren",
-    "English meaning": "to be interested in",
-    "present tense": "ich interessiere mich",
-    "past tense": "ich interessierte mich",
-    "future tense": "ich werde mich interessieren"
-  },
-  {
     "German verb": "interpretieren",
     "English meaning": "to interpret",
     "present tense": "ich interpretiere",
     "past tense": "ich interpretierte",
     "future tense": "ich werde interpretieren"
-  },
-  {
-    "German verb": "kommen",
-    "English meaning": "to come",
-    "present tense": "ich komme",
-    "past tense": "ich kam",
-    "future tense": "ich werde kommen"
-  },
-  {
-    "German verb": "ankommen",
-    "English meaning": "to arrive; succeed; matter",
-    "present tense": "ich komme an",
-    "past tense": "ich kam an",
-    "future tense": "ich werde ankommen"
-  },
-  {
-    "German verb": "vorkommen",
-    "English meaning": "to occur; seem; come forth",
-    "present tense": "ich komme vor",
-    "past tense": "ich kam vor",
-    "future tense": "ich werde vorkommen"
   },
   {
     "German verb": "kämpfen",
@@ -982,18 +1052,18 @@ const pronounData = {
     "future tense": "ich werde kämpfen"
   },
   {
-    "German verb": "einkaufen",
-    "English meaning": "to shop, buy",
-    "present tense": "ich kaufe ein",
-    "past tense": "ich kaufte ein",
-    "future tense": "ich werde einkaufen"
+    "German verb": "kennen",
+    "English meaning": "to know (a person), be familiar with",
+    "present tense": "ich kenne",
+    "past tense": "ich kannte",
+    "future tense": "ich werde kennen"
   },
   {
-    "German verb": "klingen",
-    "English meaning": "to ring, sound",
-    "present tense": "ich klinge",
-    "past tense": "ich klang",
-    "future tense": "ich werde klingen"
+    "German verb": "kennenlernen",
+    "English meaning": "to get to know; meet",
+    "present tense": "ich lerne kennen",
+    "past tense": "ich lernte kennen",
+    "future tense": "ich werde kennenlernen"
   },
   {
     "German verb": "klatschen",
@@ -1008,6 +1078,13 @@ const pronounData = {
     "present tense": "ich klebe",
     "past tense": "ich klebte",
     "future tense": "ich werde kleben"
+  },
+  {
+    "German verb": "klingen",
+    "English meaning": "to ring, sound",
+    "present tense": "ich klinge",
+    "past tense": "ich klang",
+    "future tense": "ich werde klingen"
   },
   {
     "German verb": "klopfen",
@@ -1038,6 +1115,13 @@ const pronounData = {
     "future tense": "ich werde kochen"
   },
   {
+    "German verb": "kommen",
+    "English meaning": "to come",
+    "present tense": "ich komme",
+    "past tense": "ich kam",
+    "future tense": "ich werde kommen"
+  },
+  {
     "German verb": "können",
     "English meaning": "to be able (can); to know",
     "present tense": "ich kann",
@@ -1066,6 +1150,13 @@ const pronounData = {
     "future tense": "ich werde kratzen"
   },
   {
+    "German verb": "kriechen",
+    "English meaning": "to creep, crawl",
+    "present tense": "ich krieche",
+    "past tense": "ich kroch",
+    "future tense": "ich werde kriechen"
+  },
+  {
     "German verb": "kriegen",
     "English meaning": "to get; receive",
     "present tense": "ich kriege",
@@ -1087,6 +1178,13 @@ const pronounData = {
     "future tense": "ich werde kürzen"
   },
   {
+    "German verb": "küssen",
+    "English meaning": "to kiss",
+    "present tense": "ich küsse",
+    "past tense": "ich küsste",
+    "future tense": "ich werde küssen"
+  },
+  {
     "German verb": "lachen",
     "English meaning": "to laugh",
     "present tense": "ich lache",
@@ -1094,11 +1192,11 @@ const pronounData = {
     "future tense": "ich werde lachen"
   },
   {
-    "German verb": "liegen",
-    "English meaning": "to lie, be situated",
-    "present tense": "ich liege",
-    "past tense": "ich lag",
-    "future tense": "ich werde liegen"
+    "German verb": "laden",
+    "English meaning": "to load; invite",
+    "present tense": "ich lade",
+    "past tense": "ich lud",
+    "future tense": "ich werde laden"
   },
   {
     "German verb": "landen",
@@ -1108,11 +1206,18 @@ const pronounData = {
     "future tense": "ich werde landen"
   },
   {
-    "German verb": "lesen",
-    "English meaning": "to read; gather",
-    "present tense": "ich lese",
-    "past tense": "ich las",
-    "future tense": "ich werde lesen"
+    "German verb": "lassen",
+    "English meaning": "to let; leave; allow; have done",
+    "present tense": "ich lasse",
+    "past tense": "ich ließ",
+    "future tense": "ich werde lassen"
+  },
+  {
+    "German verb": "laufen",
+    "English meaning": "to run, walk",
+    "present tense": "ich laufe",
+    "past tense": "ich lief",
+    "future tense": "ich werde laufen"
   },
   {
     "German verb": "lauschen",
@@ -1150,6 +1255,20 @@ const pronounData = {
     "future tense": "ich werde lehren"
   },
   {
+    "German verb": "leiden",
+    "English meaning": "to suffer",
+    "present tense": "ich leide",
+    "past tense": "ich litt",
+    "future tense": "ich werde leiden"
+  },
+  {
+    "German verb": "leihen",
+    "English meaning": "to lend; borrow from",
+    "present tense": "ich leihe",
+    "past tense": "ich lieh",
+    "future tense": "ich werde leihen"
+  },
+  {
     "German verb": "lernen",
     "English meaning": "to learn, study",
     "present tense": "ich lerne",
@@ -1157,11 +1276,11 @@ const pronounData = {
     "future tense": "ich werde lernen"
   },
   {
-    "German verb": "kennenlernen",
-    "English meaning": "to get to know; meet",
-    "present tense": "ich lerne kennen",
-    "past tense": "ich lernte kennen",
-    "future tense": "ich werde kennenlernen"
+    "German verb": "lesen",
+    "English meaning": "to read; gather",
+    "present tense": "ich lese",
+    "past tense": "ich las",
+    "future tense": "ich werde lesen"
   },
   {
     "German verb": "leuchten",
@@ -1185,13 +1304,6 @@ const pronounData = {
     "future tense": "ich werde lieben"
   },
   {
-    "German verb": "laufen",
-    "English meaning": "to run, walk",
-    "present tense": "ich laufe",
-    "past tense": "ich lief",
-    "future tense": "ich werde laufen"
-  },
-  {
     "German verb": "liefern",
     "English meaning": "to deliver; supply",
     "present tense": "ich liefere",
@@ -1199,25 +1311,11 @@ const pronounData = {
     "future tense": "ich werde liefern"
   },
   {
-    "German verb": "leihen",
-    "English meaning": "to lend; borrow from",
-    "present tense": "ich leihe",
-    "past tense": "ich lieh",
-    "future tense": "ich werde leihen"
-  },
-  {
-    "German verb": "lassen",
-    "English meaning": "to let; leave; allow; have done",
-    "present tense": "ich lasse",
-    "past tense": "ich ließ",
-    "future tense": "ich werde lassen"
-  },
-  {
-    "German verb": "leiden",
-    "English meaning": "to suffer",
-    "present tense": "ich leide",
-    "past tense": "ich litt",
-    "future tense": "ich werde leiden"
+    "German verb": "liegen",
+    "English meaning": "to lie, be situated",
+    "present tense": "ich liege",
+    "past tense": "ich lag",
+    "future tense": "ich werde liegen"
   },
   {
     "German verb": "loben",
@@ -1234,13 +1332,6 @@ const pronounData = {
     "future tense": "ich werde locken"
   },
   {
-    "German verb": "lügen",
-    "English meaning": "to tell a lie",
-    "present tense": "ich lüge",
-    "past tense": "ich log",
-    "future tense": "ich werde lügen"
-  },
-  {
     "German verb": "lohnen",
     "English meaning": "to be worthwhile; reward",
     "present tense": "ich lohne",
@@ -1255,11 +1346,18 @@ const pronounData = {
     "future tense": "ich werde lösen"
   },
   {
-    "German verb": "laden",
-    "English meaning": "to load; invite",
-    "present tense": "ich lade",
-    "past tense": "ich lud",
-    "future tense": "ich werde laden"
+    "German verb": "lügen",
+    "English meaning": "to tell a lie",
+    "present tense": "ich lüge",
+    "past tense": "ich log",
+    "future tense": "ich werde lügen"
+  },
+  {
+    "German verb": "lutschen",
+    "English meaning": "to suck",
+    "present tense": "ich lutsche",
+    "past tense": "ich lutschte",
+    "future tense": "ich werde lutschen"
   },
   {
     "German verb": "machen",
@@ -1267,13 +1365,6 @@ const pronounData = {
     "present tense": "ich mache",
     "past tense": "ich machte",
     "future tense": "ich werde machen"
-  },
-  {
-    "German verb": "aufmachen",
-    "English meaning": "to open; present, feature",
-    "present tense": "ich mache auf",
-    "past tense": "ich machte auf",
-    "future tense": "ich werde aufmachen"
   },
   {
     "German verb": "mahlen",
@@ -1290,11 +1381,11 @@ const pronounData = {
     "future tense": "ich werde malen"
   },
   {
-    "German verb": "messen",
-    "English meaning": "to measure",
-    "present tense": "ich messe",
-    "past tense": "ich maß",
-    "future tense": "ich werde messen"
+    "German verb": "meiden",
+    "English meaning": "to avoid, shun",
+    "present tense": "ich meide",
+    "past tense": "ich mied",
+    "future tense": "ich werde meiden"
   },
   {
     "German verb": "meinen",
@@ -1311,11 +1402,11 @@ const pronounData = {
     "future tense": "ich werde merken"
   },
   {
-    "German verb": "meiden",
-    "English meaning": "to avoid, shun",
-    "present tense": "ich meide",
-    "past tense": "ich mied",
-    "future tense": "ich werde meiden"
+    "German verb": "messen",
+    "English meaning": "to measure",
+    "present tense": "ich messe",
+    "past tense": "ich maß",
+    "future tense": "ich werde messen"
   },
   {
     "German verb": "mögen",
@@ -1360,18 +1451,18 @@ const pronounData = {
     "future tense": "ich werde packen"
   },
   {
-    "German verb": "passieren",
-    "English meaning": "to happen; pass",
-    "present tense": "ich passiere",
-    "past tense": "ich passierte",
-    "future tense": "ich werde passieren"
-  },
-  {
     "German verb": "passen",
     "English meaning": "to fit, suit",
     "present tense": "ich passe",
     "past tense": "ich passte",
     "future tense": "ich werde passen"
+  },
+  {
+    "German verb": "passieren",
+    "English meaning": "to happen; pass",
+    "present tense": "ich passiere",
+    "past tense": "ich passierte",
+    "future tense": "ich werde passieren"
   },
   {
     "German verb": "pfeifen",
@@ -1430,20 +1521,6 @@ const pronounData = {
     "future tense": "ich werde rächen"
   },
   {
-    "German verb": "rinnen",
-    "English meaning": "to run, leak",
-    "present tense": "ich rinne",
-    "past tense": "ich rann",
-    "future tense": "ich werde rinnen"
-  },
-  {
-    "German verb": "rennen",
-    "English meaning": "to run",
-    "present tense": "ich renne",
-    "past tense": "ich rannte",
-    "future tense": "ich werde rennen"
-  },
-  {
     "German verb": "räumen",
     "English meaning": "to clear, evacuate",
     "present tense": "ich räume",
@@ -1465,6 +1542,13 @@ const pronounData = {
     "future tense": "ich werde regnen"
   },
   {
+    "German verb": "reiben",
+    "English meaning": "to rub",
+    "present tense": "ich reibe",
+    "past tense": "ich rieb",
+    "future tense": "ich werde reiben"
+  },
+  {
     "German verb": "reichen",
     "English meaning": "to pass, hand; be enough",
     "present tense": "ich reiche",
@@ -1477,6 +1561,27 @@ const pronounData = {
     "present tense": "ich reinige",
     "past tense": "ich reinigte",
     "future tense": "ich werde reinigen"
+  },
+  {
+    "German verb": "reißen",
+    "English meaning": "to tear, rip",
+    "present tense": "ich reiße",
+    "past tense": "ich riss",
+    "future tense": "ich werde reißen"
+  },
+  {
+    "German verb": "reiten",
+    "English meaning": "to ride (a horse)",
+    "present tense": "ich reite",
+    "past tense": "ich ritt",
+    "future tense": "ich werde reiten"
+  },
+  {
+    "German verb": "rennen",
+    "English meaning": "to run",
+    "present tense": "ich renne",
+    "past tense": "ich rannte",
+    "future tense": "ich werde rennen"
   },
   {
     "German verb": "retten",
@@ -1493,32 +1598,11 @@ const pronounData = {
     "future tense": "ich werde richten"
   },
   {
-    "German verb": "reiben",
-    "English meaning": "to rub",
-    "present tense": "ich reibe",
-    "past tense": "ich rieb",
-    "future tense": "ich werde reiben"
-  },
-  {
-    "German verb": "rufen",
-    "English meaning": "to call",
-    "present tense": "ich rufe",
-    "past tense": "ich rief",
-    "future tense": "ich werde rufen"
-  },
-  {
-    "German verb": "reißen",
-    "English meaning": "to tear, rip",
-    "present tense": "ich reiße",
-    "past tense": "ich riss",
-    "future tense": "ich werde reißen"
-  },
-  {
-    "German verb": "reiten",
-    "English meaning": "to ride (a horse)",
-    "present tense": "ich reite",
-    "past tense": "ich ritt",
-    "future tense": "ich werde reiten"
+    "German verb": "rinnen",
+    "English meaning": "to run, leak",
+    "present tense": "ich rinne",
+    "past tense": "ich rann",
+    "future tense": "ich werde rinnen"
   },
   {
     "German verb": "rollen",
@@ -1542,6 +1626,20 @@ const pronounData = {
     "future tense": "ich werde rücken"
   },
   {
+    "German verb": "rufen",
+    "English meaning": "to call",
+    "present tense": "ich rufe",
+    "past tense": "ich rief",
+    "future tense": "ich werde rufen"
+  },
+  {
+    "German verb": "ruhen",
+    "English meaning": "to rest",
+    "present tense": "ich ruhe",
+    "past tense": "ich ruhte",
+    "future tense": "ich werde ruhen"
+  },
+  {
     "German verb": "rühmen",
     "English meaning": "to praise",
     "present tense": "ich rühme",
@@ -1554,13 +1652,6 @@ const pronounData = {
     "present tense": "ich rühre",
     "past tense": "ich rührte",
     "future tense": "ich werde rühren"
-  },
-  {
-    "German verb": "ruhen",
-    "English meaning": "to rest",
-    "present tense": "ich ruhe",
-    "past tense": "ich ruhte",
-    "future tense": "ich werde ruhen"
   },
   {
     "German verb": "rüsten",
@@ -1577,46 +1668,25 @@ const pronounData = {
     "future tense": "ich werde sagen"
   },
   {
-    "German verb": "sehen",
-    "English meaning": "to see; realize",
-    "present tense": "ich sehe",
-    "past tense": "ich sah",
-    "future tense": "ich werde sehen"
+    "German verb": "saufen",
+    "English meaning": "to drink (of animals); drink to excess",
+    "present tense": "ich saufe",
+    "past tense": "ich soff",
+    "future tense": "ich werde saufen"
   },
   {
-    "German verb": "senden",
-    "English meaning": "to send",
-    "present tense": "ich sende",
-    "past tense": "ich sandte",
-    "future tense": "ich werde senden"
+    "German verb": "saugen",
+    "English meaning": "to suck; vacuum",
+    "present tense": "ich sauge",
+    "past tense": "ich sog",
+    "future tense": "ich werde saugen"
   },
   {
-    "German verb": "singen",
-    "English meaning": "to sing",
-    "present tense": "ich singe",
-    "past tense": "ich sang",
-    "future tense": "ich werde singen"
-  },
-  {
-    "German verb": "sinnen",
-    "English meaning": "to think, reflect, meditate",
-    "present tense": "ich sinne",
-    "past tense": "ich sann",
-    "future tense": "ich werde sinnen"
-  },
-  {
-    "German verb": "sitzen",
-    "English meaning": "to sit",
-    "present tense": "ich sitze",
-    "past tense": "ich saß",
-    "future tense": "ich werde sitzen"
-  },
-  {
-    "German verb": "schelten",
-    "English meaning": "to scold, reproach",
-    "present tense": "ich schelte",
-    "past tense": "ich schalt",
-    "future tense": "ich werde schelten"
+    "German verb": "schaffen",
+    "English meaning": "to create",
+    "present tense": "ich schaffe",
+    "past tense": "ich schuf",
+    "future tense": "ich werde schaffen"
   },
   {
     "German verb": "schalten",
@@ -1633,6 +1703,13 @@ const pronounData = {
     "future tense": "ich werde schätzen"
   },
   {
+    "German verb": "schauen",
+    "English meaning": "to see, look, gaze",
+    "present tense": "ich schaue",
+    "past tense": "ich schaute",
+    "future tense": "ich werde schauen"
+  },
+  {
     "German verb": "schäumen",
     "English meaning": "to foam, froth",
     "present tense": "ich schäume",
@@ -1640,11 +1717,25 @@ const pronounData = {
     "future tense": "ich werde schäumen"
   },
   {
-    "German verb": "schauen",
-    "English meaning": "to see, look, gaze",
-    "present tense": "ich schaue",
-    "past tense": "ich schaute",
-    "future tense": "ich werde schauen"
+    "German verb": "scheiden",
+    "English meaning": "to separate",
+    "present tense": "ich scheide",
+    "past tense": "ich schied",
+    "future tense": "ich werde scheiden"
+  },
+  {
+    "German verb": "scheinen",
+    "English meaning": "to shine; seem, appear",
+    "present tense": "ich scheine",
+    "past tense": "ich schien",
+    "future tense": "ich werde scheinen"
+  },
+  {
+    "German verb": "schelten",
+    "English meaning": "to scold, reproach",
+    "present tense": "ich schelte",
+    "past tense": "ich schalt",
+    "future tense": "ich werde schelten"
   },
   {
     "German verb": "schenken",
@@ -1668,18 +1759,18 @@ const pronounData = {
     "future tense": "ich werde schicken"
   },
   {
-    "German verb": "scheiden",
-    "English meaning": "to separate",
-    "present tense": "ich scheide",
-    "past tense": "ich schied",
-    "future tense": "ich werde scheiden"
+    "German verb": "schieben",
+    "English meaning": "to push; shove; move",
+    "present tense": "ich schiebe",
+    "past tense": "ich schob",
+    "future tense": "ich werde schieben"
   },
   {
-    "German verb": "scheinen",
-    "English meaning": "to shine; seem, appear",
-    "present tense": "ich scheine",
-    "past tense": "ich schien",
-    "future tense": "ich werde scheinen"
+    "German verb": "schießen",
+    "English meaning": "to shoot",
+    "present tense": "ich schieße",
+    "past tense": "ich schoss",
+    "future tense": "ich werde schießen"
   },
   {
     "German verb": "schlachten",
@@ -1689,11 +1780,18 @@ const pronounData = {
     "future tense": "ich werde schlachten"
   },
   {
-    "German verb": "schlingen",
-    "English meaning": "to gulp; tie",
-    "present tense": "ich schlinge",
-    "past tense": "ich schlang",
-    "future tense": "ich werde schlingen"
+    "German verb": "schlafen",
+    "English meaning": "to sleep",
+    "present tense": "ich schlafe",
+    "past tense": "ich schlief",
+    "future tense": "ich werde schlafen"
+  },
+  {
+    "German verb": "schlagen",
+    "English meaning": "to beat, hit",
+    "present tense": "ich schlage",
+    "past tense": "ich schlug",
+    "future tense": "ich werde schlagen"
   },
   {
     "German verb": "schleichen",
@@ -1703,25 +1801,18 @@ const pronounData = {
     "future tense": "ich werde schleichen"
   },
   {
-    "German verb": "schlichten",
-    "English meaning": "to settle, arbitrate",
-    "present tense": "ich schlichte",
-    "past tense": "ich schlichtete",
-    "future tense": "ich werde schlichten"
-  },
-  {
-    "German verb": "schlafen",
-    "English meaning": "to sleep",
-    "present tense": "ich schlafe",
-    "past tense": "ich schlief",
-    "future tense": "ich werde schlafen"
-  },
-  {
     "German verb": "schleifen",
     "English meaning": "to grind; polish; slide",
     "present tense": "ich schleife",
     "past tense": "ich schliff",
     "future tense": "ich werde schleifen"
+  },
+  {
+    "German verb": "schlichten",
+    "English meaning": "to settle, arbitrate",
+    "present tense": "ich schlichte",
+    "past tense": "ich schlichtete",
+    "future tense": "ich werde schlichten"
   },
   {
     "German verb": "schließen",
@@ -1731,18 +1822,18 @@ const pronounData = {
     "future tense": "ich werde schließen"
   },
   {
+    "German verb": "schlingen",
+    "English meaning": "to gulp; tie",
+    "present tense": "ich schlinge",
+    "past tense": "ich schlang",
+    "future tense": "ich werde schlingen"
+  },
+  {
     "German verb": "schlucken",
     "English meaning": "to swallow, guzzle",
     "present tense": "ich schlucke",
     "past tense": "ich schluckte",
     "future tense": "ich werde schlucken"
-  },
-  {
-    "German verb": "schlagen",
-    "English meaning": "to beat, hit",
-    "present tense": "ich schlage",
-    "past tense": "ich schlug",
-    "future tense": "ich werde schlagen"
   },
   {
     "German verb": "schlüpfen",
@@ -1759,25 +1850,11 @@ const pronounData = {
     "future tense": "ich werde schmecken"
   },
   {
-    "German verb": "schmieren",
-    "English meaning": "to smear; bribe",
-    "present tense": "ich schmiere",
-    "past tense": "ich schmierte",
-    "future tense": "ich werde schmieren"
-  },
-  {
     "German verb": "schmeißen",
     "English meaning": "to fling, hurl, throw",
     "present tense": "ich schmeiße",
     "past tense": "ich schmiss",
     "future tense": "ich werde schmeißen"
-  },
-  {
-    "German verb": "schmollen",
-    "English meaning": "to sulk; pout",
-    "present tense": "ich schmolle",
-    "past tense": "ich schmollte",
-    "future tense": "ich werde schmollen"
   },
   {
     "German verb": "schmelzen",
@@ -1787,11 +1864,18 @@ const pronounData = {
     "future tense": "ich werde schmelzen"
   },
   {
-    "German verb": "schneien",
-    "English meaning": "to snow",
-    "present tense": "ich schneie",
-    "past tense": "ich schneite",
-    "future tense": "ich werde schneien"
+    "German verb": "schmieren",
+    "English meaning": "to smear; bribe",
+    "present tense": "ich schmiere",
+    "past tense": "ich schmierte",
+    "future tense": "ich werde schmieren"
+  },
+  {
+    "German verb": "schmollen",
+    "English meaning": "to sulk; pout",
+    "present tense": "ich schmolle",
+    "past tense": "ich schmollte",
+    "future tense": "ich werde schmollen"
   },
   {
     "German verb": "schneiden",
@@ -1801,18 +1885,18 @@ const pronounData = {
     "future tense": "ich werde schneiden"
   },
   {
+    "German verb": "schneien",
+    "English meaning": "to snow",
+    "present tense": "ich schneie",
+    "past tense": "ich schneite",
+    "future tense": "ich werde schneien"
+  },
+  {
     "German verb": "schnüren",
     "English meaning": "to tie, tighten",
     "present tense": "ich schnüre",
     "past tense": "ich schnürte",
     "future tense": "ich werde schnüren"
-  },
-  {
-    "German verb": "schieben",
-    "English meaning": "to push; shove; move",
-    "present tense": "ich schiebe",
-    "past tense": "ich schob",
-    "future tense": "ich werde schieben"
   },
   {
     "German verb": "schöpfen",
@@ -1822,11 +1906,11 @@ const pronounData = {
     "future tense": "ich werde schöpfen"
   },
   {
-    "German verb": "schießen",
-    "English meaning": "to shoot",
-    "present tense": "ich schieße",
-    "past tense": "ich schoss",
-    "future tense": "ich werde schießen"
+    "German verb": "schreiben",
+    "English meaning": "to write",
+    "present tense": "ich schreibe",
+    "past tense": "ich schrieb",
+    "future tense": "ich werde schreiben"
   },
   {
     "German verb": "schreien",
@@ -1836,32 +1920,11 @@ const pronounData = {
     "future tense": "ich werde schreien"
   },
   {
-    "German verb": "schreiben",
-    "English meaning": "to write",
-    "present tense": "ich schreibe",
-    "past tense": "ich schrieb",
-    "future tense": "ich werde schreiben"
-  },
-  {
-    "German verb": "schaffen",
-    "English meaning": "to create",
-    "present tense": "ich schaffe",
-    "past tense": "ich schuf",
-    "future tense": "ich werde schaffen"
-  },
-  {
-    "German verb": "schwimmen",
-    "English meaning": "to swim",
-    "present tense": "ich schwimme",
-    "past tense": "ich schwamm",
-    "future tense": "ich werde schwimmen"
-  },
-  {
-    "German verb": "schwinden",
-    "English meaning": "to fade; wane; dwindle",
-    "present tense": "ich schwinde",
-    "past tense": "ich schwand",
-    "future tense": "ich werde schwinden"
+    "German verb": "schreiten",
+    "English meaning": "to stride",
+    "present tense": "ich schreite",
+    "past tense": "ich schritt",
+    "future tense": "ich werde schreiten"
   },
   {
     "German verb": "schwänzen",
@@ -1906,6 +1969,20 @@ const pronounData = {
     "future tense": "ich werde schwellen"
   },
   {
+    "German verb": "schwimmen",
+    "English meaning": "to swim",
+    "present tense": "ich schwimme",
+    "past tense": "ich schwamm",
+    "future tense": "ich werde schwimmen"
+  },
+  {
+    "German verb": "schwinden",
+    "English meaning": "to fade; wane; dwindle",
+    "present tense": "ich schwinde",
+    "past tense": "ich schwand",
+    "future tense": "ich werde schwinden"
+  },
+  {
     "German verb": "schwören",
     "English meaning": "to swear",
     "present tense": "ich schwöre",
@@ -1920,6 +1997,111 @@ const pronounData = {
     "future tense": "ich werde segnen"
   },
   {
+    "German verb": "sehen",
+    "English meaning": "to see; realize",
+    "present tense": "ich sehe",
+    "past tense": "ich sah",
+    "future tense": "ich werde sehen"
+  },
+  {
+    "German verb": "sein",
+    "English meaning": "to be",
+    "present tense": "ich bin",
+    "past tense": "ich war",
+    "future tense": "ich werde sein"
+  },
+  {
+    "German verb": "senden",
+    "English meaning": "to send",
+    "present tense": "ich sende",
+    "past tense": "ich sandte",
+    "future tense": "ich werde senden"
+  },
+  {
+    "German verb": "sich anziehen",
+    "English meaning": "to dress",
+    "present tense": "ich ziehe mich an",
+    "past tense": "ich zog mich an",
+    "future tense": "ich werde mich anziehen"
+  },
+  {
+    "German verb": "sich ausziehen",
+    "English meaning": "to undress; move out",
+    "present tense": "ich ziehe mich aus",
+    "past tense": "ich zog mich aus",
+    "future tense": "ich werde mich ausziehen"
+  },
+  {
+    "German verb": "sich bedienen",
+    "English meaning": "to help oneself; wait on",
+    "present tense": "ich bediene mich",
+    "past tense": "ich bediente mich",
+    "future tense": "ich werde mich bedienen"
+  },
+  {
+    "German verb": "sich beeilen",
+    "English meaning": "to hurry",
+    "present tense": "ich beeile mich",
+    "past tense": "ich beeilte mich",
+    "future tense": "ich werde mich beeilen"
+  },
+  {
+    "German verb": "sich befinden",
+    "English meaning": "to be, feel",
+    "present tense": "ich befinde mich",
+    "past tense": "ich befand mich",
+    "future tense": "ich werde mich befinden"
+  },
+  {
+    "German verb": "sich erkälten",
+    "English meaning": "to catch a cold",
+    "present tense": "ich erkälte mich",
+    "past tense": "ich erkältete mich",
+    "future tense": "ich werde mich erkälten"
+  },
+  {
+    "German verb": "sich freuen",
+    "English meaning": "to be glad; look forward to",
+    "present tense": "ich freue mich",
+    "past tense": "ich freute mich",
+    "future tense": "ich werde mich freuen"
+  },
+  {
+    "German verb": "sich gewöhnen",
+    "English meaning": "to get used to",
+    "present tense": "ich gewöhne mich",
+    "past tense": "ich gewöhnte mich",
+    "future tense": "ich werde mich gewöhnen"
+  },
+  {
+    "German verb": "sich interessieren",
+    "English meaning": "to be interested in",
+    "present tense": "ich interessiere mich",
+    "past tense": "ich interessierte mich",
+    "future tense": "ich werde mich interessieren"
+  },
+  {
+    "German verb": "sich unterhalten",
+    "English meaning": "to converse; amuse oneself",
+    "present tense": "ich unterhalte mich",
+    "past tense": "ich unterhielt mich",
+    "future tense": "ich werde mich unterhalten"
+  },
+  {
+    "German verb": "sich verhalten",
+    "English meaning": "to behave; be",
+    "present tense": "ich verhalte mich",
+    "past tense": "ich verhielt mich",
+    "future tense": "ich werde mich verhalten"
+  },
+  {
+    "German verb": "sich verlieben",
+    "English meaning": "to fall in love",
+    "present tense": "ich verliebe mich",
+    "past tense": "ich verliebte mich",
+    "future tense": "ich werde mich verlieben"
+  },
+  {
     "German verb": "siegen",
     "English meaning": "to conquer, be victorious",
     "present tense": "ich siege",
@@ -1927,18 +2109,25 @@ const pronounData = {
     "future tense": "ich werde siegen"
   },
   {
-    "German verb": "saufen",
-    "English meaning": "to drink (of animals); drink to excess",
-    "present tense": "ich saufe",
-    "past tense": "ich soff",
-    "future tense": "ich werde saufen"
+    "German verb": "singen",
+    "English meaning": "to sing",
+    "present tense": "ich singe",
+    "past tense": "ich sang",
+    "future tense": "ich werde singen"
   },
   {
-    "German verb": "saugen",
-    "English meaning": "to suck; vacuum",
-    "present tense": "ich sauge",
-    "past tense": "ich sog",
-    "future tense": "ich werde saugen"
+    "German verb": "sinnen",
+    "English meaning": "to think, reflect, meditate",
+    "present tense": "ich sinne",
+    "past tense": "ich sann",
+    "future tense": "ich werde sinnen"
+  },
+  {
+    "German verb": "sitzen",
+    "English meaning": "to sit",
+    "present tense": "ich sitze",
+    "past tense": "ich saß",
+    "future tense": "ich werde sitzen"
   },
   {
     "German verb": "sollen",
@@ -1983,6 +2172,13 @@ const pronounData = {
     "future tense": "ich werde sprechen"
   },
   {
+    "German verb": "sprießen",
+    "English meaning": "to sprout",
+    "present tense": "ich sprieße",
+    "past tense": "ich spross",
+    "future tense": "ich werde sprießen"
+  },
+  {
     "German verb": "springen",
     "English meaning": "to jump",
     "present tense": "ich springe",
@@ -1997,46 +2193,11 @@ const pronounData = {
     "future tense": "ich werde spritzen"
   },
   {
-    "German verb": "sprießen",
-    "English meaning": "to sprout",
-    "present tense": "ich sprieße",
-    "past tense": "ich spross",
-    "future tense": "ich werde sprießen"
-  },
-  {
     "German verb": "spülen",
     "English meaning": "to rinse, wash",
     "present tense": "ich spüle",
     "past tense": "ich spülte",
     "future tense": "ich werde spülen"
-  },
-  {
-    "German verb": "stechen",
-    "English meaning": "to prick, sting",
-    "present tense": "ich steche",
-    "past tense": "ich stach",
-    "future tense": "ich werde stechen"
-  },
-  {
-    "German verb": "stehen",
-    "English meaning": "to stand",
-    "present tense": "ich stehe",
-    "past tense": "ich stand",
-    "future tense": "ich werde stehen"
-  },
-  {
-    "German verb": "stinken",
-    "English meaning": "to stink",
-    "present tense": "ich stinke",
-    "past tense": "ich stank",
-    "future tense": "ich werde stinken"
-  },
-  {
-    "German verb": "sterben",
-    "English meaning": "to die",
-    "present tense": "ich sterbe",
-    "past tense": "ich starb",
-    "future tense": "ich werde sterben"
   },
   {
     "German verb": "staunen",
@@ -2046,6 +2207,13 @@ const pronounData = {
     "future tense": "ich werde staunen"
   },
   {
+    "German verb": "stechen",
+    "English meaning": "to prick, sting",
+    "present tense": "ich steche",
+    "past tense": "ich stach",
+    "future tense": "ich werde stechen"
+  },
+  {
     "German verb": "stecken",
     "English meaning": "to set, plant; remain",
     "present tense": "ich stecke",
@@ -2053,11 +2221,11 @@ const pronounData = {
     "future tense": "ich werde stecken"
   },
   {
-    "German verb": "stellen",
-    "English meaning": "to place, put, set",
-    "present tense": "ich stelle",
-    "past tense": "ich stellte",
-    "future tense": "ich werde stellen"
+    "German verb": "stehen",
+    "English meaning": "to stand",
+    "present tense": "ich stehe",
+    "past tense": "ich stand",
+    "future tense": "ich werde stehen"
   },
   {
     "German verb": "steigen",
@@ -2067,11 +2235,25 @@ const pronounData = {
     "future tense": "ich werde steigen"
   },
   {
-    "German verb": "stoßen",
-    "English meaning": "to push, bump",
-    "present tense": "ich stoße",
-    "past tense": "ich stieß",
-    "future tense": "ich werde stoßen"
+    "German verb": "stellen",
+    "English meaning": "to place, put, set",
+    "present tense": "ich stelle",
+    "past tense": "ich stellte",
+    "future tense": "ich werde stellen"
+  },
+  {
+    "German verb": "sterben",
+    "English meaning": "to die",
+    "present tense": "ich sterbe",
+    "past tense": "ich starb",
+    "future tense": "ich werde sterben"
+  },
+  {
+    "German verb": "stinken",
+    "English meaning": "to stink",
+    "present tense": "ich stinke",
+    "past tense": "ich stank",
+    "future tense": "ich werde stinken"
   },
   {
     "German verb": "stöhnen",
@@ -2079,6 +2261,13 @@ const pronounData = {
     "present tense": "ich stöhne",
     "past tense": "ich stöhnte",
     "future tense": "ich werde stöhnen"
+  },
+  {
+    "German verb": "stoßen",
+    "English meaning": "to push, bump",
+    "present tense": "ich stoße",
+    "past tense": "ich stieß",
+    "future tense": "ich werde stoßen"
   },
   {
     "German verb": "streben",
@@ -2116,13 +2305,6 @@ const pronounData = {
     "future tense": "ich werde tanzen"
   },
   {
-    "German verb": "tun",
-    "English meaning": "to do; make; put; act",
-    "present tense": "ich tue",
-    "past tense": "ich tat",
-    "future tense": "ich werde tun"
-  },
-  {
     "German verb": "taugen",
     "English meaning": "to be of use, be fit for",
     "present tense": "ich tauge",
@@ -2144,32 +2326,11 @@ const pronounData = {
     "future tense": "ich werde töten"
   },
   {
-    "German verb": "treffen",
-    "English meaning": "to meet; hit",
-    "present tense": "ich treffe",
-    "past tense": "ich traf",
-    "future tense": "ich werde treffen"
-  },
-  {
-    "German verb": "trinken",
-    "English meaning": "to drink",
-    "present tense": "ich trinke",
-    "past tense": "ich trank",
-    "future tense": "ich werde trinken"
-  },
-  {
-    "German verb": "treten",
-    "English meaning": "to step; go; kick",
-    "present tense": "ich trete",
-    "past tense": "ich trat",
-    "future tense": "ich werde treten"
-  },
-  {
-    "German verb": "träumen",
-    "English meaning": "to dream",
-    "present tense": "ich träume",
-    "past tense": "ich träumte",
-    "future tense": "ich werde träumen"
+    "German verb": "tragen",
+    "English meaning": "to carry; wear",
+    "present tense": "ich trage",
+    "past tense": "ich trug",
+    "future tense": "ich werde tragen"
   },
   {
     "German verb": "trauen",
@@ -2179,11 +2340,39 @@ const pronounData = {
     "future tense": "ich werde trauen"
   },
   {
+    "German verb": "träumen",
+    "English meaning": "to dream",
+    "present tense": "ich träume",
+    "past tense": "ich träumte",
+    "future tense": "ich werde träumen"
+  },
+  {
+    "German verb": "treffen",
+    "English meaning": "to meet; hit",
+    "present tense": "ich treffe",
+    "past tense": "ich traf",
+    "future tense": "ich werde treffen"
+  },
+  {
     "German verb": "treiben",
     "English meaning": "to drive; push; pursue",
     "present tense": "ich treibe",
     "past tense": "ich trieb",
     "future tense": "ich werde treiben"
+  },
+  {
+    "German verb": "treten",
+    "English meaning": "to step; go; kick",
+    "present tense": "ich trete",
+    "past tense": "ich trat",
+    "future tense": "ich werde treten"
+  },
+  {
+    "German verb": "trinken",
+    "English meaning": "to drink",
+    "present tense": "ich trinke",
+    "past tense": "ich trank",
+    "future tense": "ich werde trinken"
   },
   {
     "German verb": "trocknen",
@@ -2207,18 +2396,11 @@ const pronounData = {
     "future tense": "ich werde trotzen"
   },
   {
-    "German verb": "tragen",
-    "English meaning": "to carry; wear",
-    "present tense": "ich trage",
-    "past tense": "ich trug",
-    "future tense": "ich werde tragen"
-  },
-  {
-    "German verb": "überraschen",
-    "English meaning": "to surprise",
-    "present tense": "ich überrasche",
-    "past tense": "ich überraschte",
-    "future tense": "ich werde überraschen"
+    "German verb": "tun",
+    "English meaning": "to do; make; put; act",
+    "present tense": "ich tue",
+    "past tense": "ich tat",
+    "future tense": "ich werde tun"
   },
   {
     "German verb": "üben",
@@ -2228,18 +2410,18 @@ const pronounData = {
     "future tense": "ich werde üben"
   },
   {
+    "German verb": "überraschen",
+    "English meaning": "to surprise",
+    "present tense": "ich überrasche",
+    "past tense": "ich überraschte",
+    "future tense": "ich werde überraschen"
+  },
+  {
     "German verb": "unterbrechen",
     "English meaning": "to interrupt",
     "present tense": "ich unterbreche",
     "past tense": "ich unterbrach",
     "future tense": "ich werde unterbrechen"
-  },
-  {
-    "German verb": "sich unterhalten",
-    "English meaning": "to converse; amuse oneself",
-    "present tense": "ich unterhalte mich",
-    "past tense": "ich unterhielt mich",
-    "future tense": "ich werde mich unterhalten"
   },
   {
     "German verb": "verachten",
@@ -2284,20 +2466,6 @@ const pronounData = {
     "future tense": "ich werde verhehlen"
   },
   {
-    "German verb": "sich verhalten",
-    "English meaning": "to behave; be",
-    "present tense": "ich verhalte mich",
-    "past tense": "ich verhielt mich",
-    "future tense": "ich werde mich verhalten"
-  },
-  {
-    "German verb": "verkommen",
-    "English meaning": "to degenerate",
-    "present tense": "ich verkomme",
-    "past tense": "ich verkam",
-    "future tense": "ich werde verkommen"
-  },
-  {
     "German verb": "verkaufen",
     "English meaning": "to sell",
     "present tense": "ich verkaufe",
@@ -2326,11 +2494,11 @@ const pronounData = {
     "future tense": "ich werde verklären"
   },
   {
-    "German verb": "sich verlieben",
-    "English meaning": "to fall in love",
-    "present tense": "ich verliebe mich",
-    "past tense": "ich verliebte mich",
-    "future tense": "ich werde mich verlieben"
+    "German verb": "verkommen",
+    "English meaning": "to degenerate",
+    "present tense": "ich verkomme",
+    "past tense": "ich verkam",
+    "future tense": "ich werde verkommen"
   },
   {
     "German verb": "verlieren",
@@ -2417,6 +2585,20 @@ const pronounData = {
     "future tense": "ich werde verzeihen"
   },
   {
+    "German verb": "vorkommen",
+    "English meaning": "to occur; seem; come forth",
+    "present tense": "ich komme vor",
+    "past tense": "ich kam vor",
+    "future tense": "ich werde vorkommen"
+  },
+  {
+    "German verb": "wachsen",
+    "English meaning": "to grow",
+    "present tense": "ich wachse",
+    "past tense": "ich wuchs",
+    "future tense": "ich werde wachsen"
+  },
+  {
     "German verb": "wagen",
     "English meaning": "to dare",
     "present tense": "ich wage",
@@ -2445,32 +2627,18 @@ const pronounData = {
     "future tense": "ich werde wälzen"
   },
   {
-    "German verb": "wenden",
-    "English meaning": "to turn",
-    "present tense": "ich wende",
-    "past tense": "ich wandte",
-    "future tense": "ich werde wenden"
+    "German verb": "warten",
+    "English meaning": "to wait",
+    "present tense": "ich warte",
+    "past tense": "ich wartete",
+    "future tense": "ich werde warten"
   },
   {
-    "German verb": "sein",
-    "English meaning": "to be",
-    "present tense": "ich bin",
-    "past tense": "ich war",
-    "future tense": "ich werde sein"
-  },
-  {
-    "German verb": "werben",
-    "English meaning": "to recruit; woo; court",
-    "present tense": "ich werbe",
-    "past tense": "ich warb",
-    "future tense": "ich werde werben"
-  },
-  {
-    "German verb": "werfen",
-    "English meaning": "to throw",
-    "present tense": "ich werfe",
-    "past tense": "ich warf",
-    "future tense": "ich werde werfen"
+    "German verb": "waschen",
+    "English meaning": "to wash",
+    "present tense": "ich wasche",
+    "past tense": "ich wusch",
+    "future tense": "ich werde waschen"
   },
   {
     "German verb": "wechseln",
@@ -2494,6 +2662,13 @@ const pronounData = {
     "future tense": "ich werde wehren"
   },
   {
+    "German verb": "weichen",
+    "English meaning": "to yield, give way",
+    "present tense": "ich weiche",
+    "past tense": "ich wich",
+    "future tense": "ich werde weichen"
+  },
+  {
     "German verb": "weihen",
     "English meaning": "to consecrate",
     "present tense": "ich weihe",
@@ -2508,11 +2683,39 @@ const pronounData = {
     "future tense": "ich werde weinen"
   },
   {
-    "German verb": "weichen",
-    "English meaning": "to yield, give way",
-    "present tense": "ich weiche",
-    "past tense": "ich wich",
-    "future tense": "ich werde weichen"
+    "German verb": "weisen",
+    "English meaning": "to point out, show",
+    "present tense": "ich weise",
+    "past tense": "ich wies",
+    "future tense": "ich werde weisen"
+  },
+  {
+    "German verb": "wenden",
+    "English meaning": "to turn",
+    "present tense": "ich wende",
+    "past tense": "ich wandte",
+    "future tense": "ich werde wenden"
+  },
+  {
+    "German verb": "werben",
+    "English meaning": "to recruit; woo; court",
+    "present tense": "ich werbe",
+    "past tense": "ich warb",
+    "future tense": "ich werde werben"
+  },
+  {
+    "German verb": "werden",
+    "English meaning": "to become; shall, will",
+    "present tense": "ich werde",
+    "past tense": "ich wurde",
+    "future tense": "ich werde werden"
+  },
+  {
+    "German verb": "werfen",
+    "English meaning": "to throw",
+    "present tense": "ich werfe",
+    "past tense": "ich warf",
+    "future tense": "ich werde werfen"
   },
   {
     "German verb": "widmen",
@@ -2522,11 +2725,11 @@ const pronounData = {
     "future tense": "ich werde widmen"
   },
   {
-    "German verb": "weisen",
-    "English meaning": "to point out, show",
-    "present tense": "ich weise",
-    "past tense": "ich wies",
-    "future tense": "ich werde weisen"
+    "German verb": "wissen",
+    "English meaning": "to know (a fact)",
+    "present tense": "ich weiß",
+    "past tense": "ich wusste",
+    "future tense": "ich werde wissen"
   },
   {
     "German verb": "wohnen",
@@ -2543,13 +2746,6 @@ const pronounData = {
     "future tense": "ich werde wollen"
   },
   {
-    "German verb": "wachsen",
-    "English meaning": "to grow",
-    "present tense": "ich wachse",
-    "past tense": "ich wuchs",
-    "future tense": "ich werde wachsen"
-  },
-  {
     "German verb": "wühlen",
     "English meaning": "to dig; burrow; rummage",
     "present tense": "ich wühle",
@@ -2564,32 +2760,18 @@ const pronounData = {
     "future tense": "ich werde wünschen"
   },
   {
-    "German verb": "werden",
-    "English meaning": "to become; shall, will",
-    "present tense": "ich werde",
-    "past tense": "ich wurde",
-    "future tense": "ich werde werden"
-  },
-  {
-    "German verb": "waschen",
-    "English meaning": "to wash",
-    "present tense": "ich wasche",
-    "past tense": "ich wusch",
-    "future tense": "ich werde waschen"
-  },
-  {
-    "German verb": "wissen",
-    "English meaning": "to know (a fact)",
-    "present tense": "ich weiß",
-    "past tense": "ich wusste",
-    "future tense": "ich werde wissen"
-  },
-  {
     "German verb": "zeichnen",
     "English meaning": "to draw; sign",
     "present tense": "ich zeichne",
     "past tense": "ich zeichnete",
     "future tense": "ich werde zeichnen"
+  },
+  {
+    "German verb": "zeigen",
+    "English meaning": "to show",
+    "present tense": "ich zeige",
+    "past tense": "ich zeigte",
+    "future tense": "ich werde zeigen"
   },
   {
     "German verb": "zerstören",
@@ -2606,195 +2788,13 @@ const pronounData = {
     "future tense": "ich werde ziehen"
   },
   {
-    "German verb": "sich anziehen",
-    "English meaning": "to dress",
-    "present tense": "ich ziehe mich an",
-    "past tense": "ich zog mich an",
-    "future tense": "ich werde mich anziehen"
-  },
-  {
-    "German verb": "sich ausziehen",
-    "English meaning": "to undress; move out",
-    "present tense": "ich ziehe mich aus",
-    "past tense": "ich zog mich aus",
-    "future tense": "ich werde mich ausziehen"
-  },
-  {
     "German verb": "zwingen",
     "English meaning": "to force, compel",
     "present tense": "ich zwinge",
     "past tense": "ich zwang",
     "future tense": "ich werde zwingen"
-  },
-  {
-    "German verb": "auskommen",
-    "English meaning": "to get along; manage",
-    "present tense": "ich komme aus",
-    "past tense": "ich kam aus",
-    "future tense": "ich werde auskommen"
-  },
-  {
-    "German verb": "ausstellen",
-    "English meaning": "to exhibit, expose; write out",
-    "present tense": "ich stelle aus",
-    "past tense": "ich stellte aus",
-    "future tense": "ich werde ausstellen"
-  },
-  {
-    "German verb": "beleben",
-    "English meaning": "to enliven, animate; cheer",
-    "present tense": "ich belebe",
-    "past tense": "ich belebte",
-    "future tense": "ich werde beleben"
-  },
-  {
-    "German verb": "bieten",
-    "English meaning": "to offer",
-    "present tense": "ich biete",
-    "past tense": "ich bot",
-    "future tense": "ich werde bieten"
-  },
-  {
-    "German verb": "bleiben",
-    "English meaning": "to remain, stay",
-    "present tense": "ich bleibe",
-    "past tense": "ich blieb",
-    "future tense": "ich werde bleiben"
-  },
-  {
-    "German verb": "bluten",
-    "English meaning": "to bleed",
-    "present tense": "ich blute",
-    "past tense": "ich blutete",
-    "future tense": "ich werde bluten"
-  },
-  {
-    "German verb": "brechen",
-    "English meaning": "to break",
-    "present tense": "ich breche",
-    "past tense": "ich brach",
-    "future tense": "ich werde brechen"
-  },
-  {
-    "German verb": "brennen",
-    "English meaning": "to burn",
-    "present tense": "ich brenne",
-    "past tense": "ich brannte",
-    "future tense": "ich werde brennen"
-  },
-  {
-    "German verb": "dringen",
-    "English meaning": "to penetrate; insist",
-    "present tense": "ich dringe",
-    "past tense": "ich drang",
-    "future tense": "ich werde dringen"
-  },
-  {
-    "German verb": "enthalten",
-    "English meaning": "to contain",
-    "present tense": "ich enthalte",
-    "past tense": "ich enthielt",
-    "future tense": "ich werde enthalten"
-  },
-  {
-    "German verb": "finden",
-    "English meaning": "to find",
-    "present tense": "ich finde",
-    "past tense": "ich fand",
-    "future tense": "ich werde finden"
-  },
-  {
-    "German verb": "fliegen",
-    "English meaning": "to fly",
-    "present tense": "ich fliege",
-    "past tense": "ich flog",
-    "future tense": "ich werde fliegen"
-  },
-  {
-    "German verb": "fliehen",
-    "English meaning": "to flee",
-    "present tense": "ich fliehe",
-    "past tense": "ich floh",
-    "future tense": "ich werde fliehen"
-  },
-  {
-    "German verb": "fressen",
-    "English meaning": "to eat, feed, devour",
-    "present tense": "ich fresse",
-    "past tense": "ich fraß",
-    "future tense": "ich werde fressen"
-  },
-  {
-    "German verb": "geben",
-    "English meaning": "to give",
-    "present tense": "ich gebe",
-    "past tense": "ich gab",
-    "future tense": "ich werde geben"
-  },
-  {
-    "German verb": "gehen",
-    "English meaning": "to go, walk",
-    "present tense": "ich gehe",
-    "past tense": "ich ging",
-    "future tense": "ich werde gehen"
-  },
-  {
-    "German verb": "kennen",
-    "English meaning": "to know (a person), be familiar with",
-    "present tense": "ich kenne",
-    "past tense": "ich kannte",
-    "future tense": "ich werde kennen"
-  },
-  {
-    "German verb": "kriechen",
-    "English meaning": "to creep, crawl",
-    "present tense": "ich krieche",
-    "past tense": "ich kroch",
-    "future tense": "ich werde kriechen"
-  },
-  {
-    "German verb": "küssen",
-    "English meaning": "to kiss",
-    "present tense": "ich küsse",
-    "past tense": "ich küsste",
-    "future tense": "ich werde küssen"
-  },
-  {
-    "German verb": "lutschen",
-    "English meaning": "to suck",
-    "present tense": "ich lutsche",
-    "past tense": "ich lutschte",
-    "future tense": "ich werde lutschen"
-  },
-  {
-    "German verb": "schreiten",
-    "English meaning": "to stride",
-    "present tense": "ich schreite",
-    "past tense": "ich schritt",
-    "future tense": "ich werde schreiten"
-  },
-  {
-    "German verb": "sich freuen",
-    "English meaning": "to be glad; look forward to",
-    "present tense": "ich freue mich",
-    "past tense": "ich freute mich",
-    "future tense": "ich werde mich freuen"
-  },
-  {
-    "German verb": "warten",
-    "English meaning": "to wait",
-    "present tense": "ich warte",
-    "past tense": "ich wartete",
-    "future tense": "ich werde warten"
-  },
-  {
-    "German verb": "zeigen",
-    "English meaning": "to show",
-    "present tense": "ich zeige",
-    "past tense": "ich zeigte",
-    "future tense": "ich werde zeigen"
   }
-],
+  ],
   du: [
   {
     "German verb": "achten",
@@ -16768,13 +16768,64 @@ const pronounData = {
     "present tense": "Sie zwingen",
     "past tense": "Sie zwangen",
     "future tense": "Sie werden zwingen"
-  }
-]
+      
+    }
+  ]
+  // You can add du, er, wir, ihr, sie etc. here in the same structure.
 };
 
+// ==================== DERIVED VERB LISTS ====================
+let allVerbEntries = [];
+let uniqueVerbsForSearch = [];
+
+function buildAllVerbEntries() {
+  allVerbEntries = [];
+  const verbMap = new Map();
+
+  Object.entries(pronounData).forEach(([pronoun, verbs]) => {
+    verbs.forEach(entry => {
+      const verb = (entry["German verb"] || "").trim();
+      if (!verb) return;
+
+      const meaning = entry["English meaning"] || "";
+      const present = entry["present tense"] || "";
+      const past = entry["past tense"] || "";
+      const future = entry["future tense"] || "";
+
+      let letter = verb.charAt(0).toUpperCase();
+      if (letter === "Ä") letter = "A";
+      else if (letter === "Ö") letter = "O";
+      else if (letter === "Ü") letter = "U";
+      else if (letter === "ß") letter = "S";
+      if (!/^[A-Z]$/.test(letter)) {
+        letter = "OTHER";
+      }
+
+      allVerbEntries.push({
+        verb,
+        meaning,
+        present,
+        past,
+        future,
+        pronoun,
+        alphaLetter: letter
+      });
+
+      const key = verb.toLowerCase();
+      if (!verbMap.has(key)) {
+        verbMap.set(key, verb);
+      }
+    });
+  });
+
+  uniqueVerbsForSearch = Array.from(verbMap.values()).sort((a, b) =>
+    a.localeCompare(b, "de")
+  );
+}
+
 // ==================== STATE ====================
-let currentPronoun = 'ich';
-let currentVerbs = pronounData.ich;
+let currentPronoun = "ich";
+let currentVerbs = pronounData.ich || [];
 let isPlayingAll = false;
 let playAllIndex = 0;
 let currentSpeed = 0.9;
@@ -16784,24 +16835,48 @@ let currentSearchResults = [];
 let isPlayingSearchAll = false;
 let searchPlayIndex = 0;
 
+// Tester state
+const testerState = {
+  mode: "meaning",           // "meaning" | "conjugation"
+  conjugationTense: "present", // "present" | "past" | "future"
+  alphaFilter: "ALL",
+  pool: [],
+  currentIndex: null,
+  scoreCorrect: 0,
+  scoreTotal: 0,
+  lock: false
+};
+
 // ==================== VOICE SETUP ====================
 let germanVoice = null, englishVoice = null;
 function loadVoices() {
   const voices = speechSynthesis.getVoices();
-  germanVoice = voices.find(v => v.lang.toLowerCase().startsWith('de') && v.name.toLowerCase().includes('google'))
-                || voices.find(v => v.lang.toLowerCase().startsWith('de'))
-                || voices[0];
-  englishVoice = voices.find(v => v.lang.toLowerCase().startsWith('en') && v.name.toLowerCase().includes('google'))
-                || voices.find(v => v.lang.toLowerCase().startsWith('en'))
-                || voices[1];
+  germanVoice =
+    voices.find(
+      v =>
+        v.lang.toLowerCase().startsWith("de") &&
+        v.name.toLowerCase().includes("google")
+    ) ||
+    voices.find(v => v.lang.toLowerCase().startsWith("de")) ||
+    voices[0];
+
+  englishVoice =
+    voices.find(
+      v =>
+        v.lang.toLowerCase().startsWith("en") &&
+        v.name.toLowerCase().includes("google")
+    ) ||
+    voices.find(v => v.lang.toLowerCase().startsWith("en")) ||
+    voices[1];
 }
 speechSynthesis.onvoiceschanged = loadVoices;
 loadVoices();
 
 // ==================== SPEED CONTROL ====================
-document.getElementById('speed').addEventListener('input', (e) => {
+document.getElementById("speed").addEventListener("input", e => {
   currentSpeed = parseFloat(e.target.value);
-  document.getElementById('speedVal').textContent = currentSpeed.toFixed(1) + 'x';
+  document.getElementById("speedVal").textContent =
+    currentSpeed.toFixed(1) + "x";
 });
 
 // ==================== SPEAK FUNCTION ====================
@@ -16810,24 +16885,29 @@ function speak(text, lang, onEnd) {
   const utter = new SpeechSynthesisUtterance(text);
   utter.lang = lang;
   utter.rate = currentSpeed;
-  utter.voice = lang.startsWith('de') ? germanVoice : englishVoice;
+  utter.voice = lang.startsWith("de") ? germanVoice : englishVoice;
   utter.onend = onEnd;
   speechSynthesis.speak(utter);
 }
 
 function speakVerb(item, onComplete) {
   const parts = [
-    { text: item['German verb'], lang: 'de-DE' },
-    { text: item['English meaning'], lang: 'en-US' },
-    { text: item['present tense'], lang: 'de-DE' },
-    { text: item['past tense'], lang: 'de-DE' },
-    { text: item['future tense'] || '–', lang: 'de-DE' }
-  ].filter(p => p.text && p.text.trim() !== '' && p.text !== '–');
+    { text: item["German verb"], lang: "de-DE" },
+    { text: item["English meaning"], lang: "en-US" },
+    { text: item["present tense"], lang: "de-DE" },
+    { text: item["past tense"], lang: "de-DE" },
+    { text: item["future tense"] || "–", lang: "de-DE" }
+  ].filter(
+    p => p.text && p.text.trim() !== "" && p.text !== "–"
+  );
 
   let i = 0;
   function next() {
     if (i < parts.length) {
-      speak(parts[i].text, parts[i].lang, () => { i++; next(); });
+      speak(parts[i].text, parts[i].lang, () => {
+        i++;
+        next();
+      });
     } else if (onComplete) {
       setTimeout(onComplete, 600);
     }
@@ -16837,16 +16917,18 @@ function speakVerb(item, onComplete) {
 
 // ==================== RENDER TABLE ====================
 function renderTable() {
-  const tbody = document.querySelector('#verbsTable tbody');
-  tbody.innerHTML = '';
+  const tbody = document.querySelector("#verbsTable tbody");
+  tbody.innerHTML = "";
   currentVerbs.forEach((v, idx) => {
-    const tr = document.createElement('tr');
+    const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td data-label="Verb" class="german">${v['German verb']}</td>
-      <td data-label="Meaning" class="english">${v['English meaning']}</td>
-      <td data-label="Present" class="sentence">${v['present tense']}</td>
-      <td data-label="Past" class="sentence">${v['past tense']}</td>
-      <td data-label="Future" class="sentence">${v['future tense'] || '<span class="missing">–</span>'}</td>
+      <td data-label="Verb" class="german">${v["German verb"]}</td>
+      <td data-label="Meaning" class="english">${v["English meaning"]}</td>
+      <td data-label="Present" class="sentence">${v["present tense"]}</td>
+      <td data-label="Past" class="sentence">${v["past tense"]}</td>
+      <td data-label="Future" class="sentence">${
+        v["future tense"] || '<span class="missing">–</span>'
+      }</td>
       <td data-label="Play"><button class="btn btn-row" data-index="${idx}">Play from here</button></td>
     `;
     tbody.appendChild(tr);
@@ -16854,34 +16936,36 @@ function renderTable() {
 }
 
 // ==================== PLAY ALL & PLAY FROM ROW ====================
-const playAllBtn = document.getElementById('playAllBtn');
+const playAllBtn = document.getElementById("playAllBtn");
 
-playAllBtn.addEventListener('click', () => {
+playAllBtn.addEventListener("click", () => {
   if (isPlayingAll || isPlayingSearchAll) {
     isPlayingAll = false;
     isPlayingSearchAll = false;
     speechSynthesis.cancel();
-    playAllBtn.textContent = 'Play All';
-    playAllBtn.classList.remove('btn-stop');
-    playAllBtn.classList.add('btn-play-all');
+    playAllBtn.textContent = "Play All";
+    playAllBtn.classList.remove("btn-stop");
+    playAllBtn.classList.add("btn-play-all");
   } else {
-    const searchPanelActive = document.getElementById('panelSearch').classList.contains('active');
+    const searchPanelActive = document
+      .getElementById("panelSearch")
+      .classList.contains("active");
     if (searchPanelActive) {
       if (currentSearchResults.length === 0) {
-        alert('Please perform a search with results to play.');
+        alert("Please perform a search with results to play.");
         return;
       }
       isPlayingSearchAll = true;
-      playAllBtn.textContent = 'Stop All';
-      playAllBtn.classList.remove('btn-play-all');
-      playAllBtn.classList.add('btn-stop');
+      playAllBtn.textContent = "Stop All";
+      playAllBtn.classList.remove("btn-play-all");
+      playAllBtn.classList.add("btn-stop");
 
       const firstItem = currentSearchResults[0];
       const germanVerb = firstItem.germanVerb;
       const englishMeaning = firstItem.englishMeaning;
 
-      speak(`${germanVerb}`, 'de-DE', () => {
-        speak(`${englishMeaning}`, 'en-US', () => {
+      speak(`${germanVerb}`, "de-DE", () => {
+        speak(`${englishMeaning}`, "en-US", () => {
           searchPlayIndex = 0;
           playSearchResultsSequential();
         });
@@ -16895,22 +16979,22 @@ playAllBtn.addEventListener('click', () => {
 function playSearchResultsSequential() {
   if (searchPlayIndex >= currentSearchResults.length) {
     isPlayingSearchAll = false;
-    playAllBtn.textContent = 'Play All';
-    playAllBtn.classList.remove('btn-stop');
-    playAllBtn.classList.add('btn-play-all');
+    playAllBtn.textContent = "Play All";
+    playAllBtn.classList.remove("btn-stop");
+    playAllBtn.classList.add("btn-play-all");
     return;
   }
   const item = currentSearchResults[searchPlayIndex];
   const sentences = [
     item.present,
     item.past,
-    item.future !== '–' ? item.future : null
+    item.future !== "–" ? item.future : null
   ].filter(Boolean);
 
   let idx = 0;
   function nextSentence() {
     if (idx < sentences.length) {
-      speak(sentences[idx], 'de-DE', () => {
+      speak(sentences[idx], "de-DE", () => {
         idx++;
         nextSentence();
       });
@@ -16927,14 +17011,16 @@ function playSearchResultsSequential() {
 function playFromIndex(startIdx) {
   if (startIdx >= currentVerbs.length) {
     isPlayingAll = false;
-    playAllBtn.textContent = 'Play All';
-    playAllBtn.classList.remove('btn-stop'); playAllBtn.classList.add('btn-play-all');
+    playAllBtn.textContent = "Play All";
+    playAllBtn.classList.remove("btn-stop");
+    playAllBtn.classList.add("btn-play-all");
     return;
   }
   playAllIndex = startIdx;
   isPlayingAll = true;
-  playAllBtn.textContent = 'Stop All';
-  playAllBtn.classList.remove('btn-play-all'); playAllBtn.classList.add('btn-stop');
+  playAllBtn.textContent = "Stop All";
+  playAllBtn.classList.remove("btn-play-all");
+  playAllBtn.classList.add("btn-stop");
 
   speakVerb(currentVerbs[playAllIndex], () => {
     if (isPlayingAll) playFromIndex(playAllIndex + 1);
@@ -16942,83 +17028,106 @@ function playFromIndex(startIdx) {
 }
 
 // Play from individual row button in conjugation panel
-document.querySelector('#verbsTable tbody').addEventListener('click', (e) => {
-  if (e.target.classList.contains('btn-row')) {
-    const idx = parseInt(e.target.dataset.index);
-    if (isPlayingAll) {
-      isPlayingAll = false;
-      speechSynthesis.cancel();
-      playAllBtn.textContent = 'Play All';
-      playAllBtn.classList.remove('btn-stop'); playAllBtn.classList.add('btn-play-all');
-    }
-    playFromIndex(idx);
-  }
-});
-
-// ==================== PRONOUN SWITCH ====================
-document.querySelectorAll('.pronoun-btns button').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.pronoun-btns button').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentPronoun = btn.dataset.pronoun;
-    currentVerbs = pronounData[currentPronoun] || [];
-    renderTable();
-    if (isPlayingAll) {
-      isPlayingAll = false;
-      speechSynthesis.cancel();
-      playAllBtn.textContent = 'Play All';
+document
+  .querySelector("#verbsTable tbody")
+  .addEventListener("click", e => {
+    if (e.target.classList.contains("btn-row")) {
+      const idx = parseInt(e.target.dataset.index, 10);
+      if (isPlayingAll) {
+        isPlayingAll = false;
+        speechSynthesis.cancel();
+        playAllBtn.textContent = "Play All";
+        playAllBtn.classList.remove("btn-stop");
+        playAllBtn.classList.add("btn-play-all");
+      }
+      playFromIndex(idx);
     }
   });
-});
+
+// ==================== PRONOUN SWITCH ====================
+document
+  .querySelectorAll(".pronoun-btns button")
+  .forEach(btn => {
+    btn.addEventListener("click", () => {
+      document
+        .querySelectorAll(".pronoun-btns button")
+        .forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentPronoun = btn.dataset.pronoun;
+      currentVerbs = pronounData[currentPronoun] || [];
+      renderTable();
+      if (isPlayingAll) {
+        isPlayingAll = false;
+        speechSynthesis.cancel();
+        playAllBtn.textContent = "Play All";
+      }
+    });
+  });
 
 // ==================== PANEL SWITCH ====================
-document.getElementById('btnConjugations').addEventListener('click', () => {
-  switchPanel('panelConjugations');
+document.getElementById("btnConjugations").addEventListener("click", () => {
+  switchPanel("panelConjugations");
 });
 
-document.getElementById('btnTester').addEventListener('click', () => {
-  switchPanel('panelTester');
+document.getElementById("btnTester").addEventListener("click", () => {
+  switchPanel("panelTester");
 });
 
-document.getElementById('btnSearch').addEventListener('click', () => {
-  switchPanel('panelSearch');
+document.getElementById("btnSearch").addEventListener("click", () => {
+  switchPanel("panelSearch");
 });
 
 function switchPanel(panelId) {
-  document.querySelectorAll('.main-btns button').forEach(b => b.classList.remove('active'));
-  if (panelId === 'panelConjugations') document.getElementById('btnConjugations').classList.add('active');
-  else if (panelId === 'panelTester') document.getElementById('btnTester').classList.add('active');
-  else if (panelId === 'panelSearch') document.getElementById('btnSearch').classList.add('active');
+  document
+    .querySelectorAll(".main-btns button")
+    .forEach(b => b.classList.remove("active"));
+  if (panelId === "panelConjugations")
+    document.getElementById("btnConjugations").classList.add("active");
+  else if (panelId === "panelTester")
+    document.getElementById("btnTester").classList.add("active");
+  else if (panelId === "panelSearch")
+    document.getElementById("btnSearch").classList.add("active");
 
-  document.querySelectorAll('.pronoun-panel').forEach(panel => panel.classList.remove('active'));
-  document.getElementById(panelId).classList.add('active');
+  document
+    .querySelectorAll(".pronoun-panel")
+    .forEach(panel => panel.classList.remove("active"));
+  document.getElementById(panelId).classList.add("active");
 }
 
-// ==================== SEARCH FEATURE ====================
-const searchInput = document.getElementById('searchInput');
-const searchBtn = document.getElementById('searchBtn');
-const searchResultsBody = document.querySelector('#searchResultsTable tbody');
-const searchMessage = document.getElementById('searchMessage');
+// ==================== SEARCH FEATURE + UMLAUT KEYBOARD + AUTOCOMPLETE ====================
+const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn");
+const searchResultsBody = document.querySelector(
+  "#searchResultsTable tbody"
+);
+const searchMessage = document.getElementById("searchMessage");
+const autocompleteList = document.getElementById("autocompleteList");
+const umlautKeyboard = document.getElementById("umlautKeyboard");
 
-searchBtn.addEventListener('click', () => {
+function performSearch() {
   const query = searchInput.value.trim().toLowerCase();
-  searchResultsBody.innerHTML = '';
-  searchMessage.textContent = '';
+  searchResultsBody.innerHTML = "";
+  searchMessage.textContent = "";
+  autocompleteList.innerHTML = "";
   currentSearchResults = [];
 
   if (!query) {
-    searchMessage.textContent = 'Please enter a German verb to search.';
+    searchMessage.textContent =
+      "Please enter a German verb to search.";
     return;
   }
 
   Object.entries(pronounData).forEach(([pronoun, verbs]) => {
     verbs.forEach(verbEntry => {
-      if (verbEntry["German verb"].toLowerCase() === query) {
+      if (
+        verbEntry["German verb"] &&
+        verbEntry["German verb"].toLowerCase() === query
+      ) {
         currentSearchResults.push({
           pronoun,
           present: verbEntry["present tense"],
           past: verbEntry["past tense"],
-          future: verbEntry["future tense"] || '–',
+          future: verbEntry["future tense"] || "–",
           englishMeaning: verbEntry["English meaning"],
           germanVerb: verbEntry["German verb"]
         });
@@ -17032,7 +17141,7 @@ searchBtn.addEventListener('click', () => {
   }
 
   currentSearchResults.forEach((item, idx) => {
-    const tr = document.createElement('tr');
+    const tr = document.createElement("tr");
     tr.innerHTML = `
       <td data-label="Pronoun" class="german">${item.pronoun}</td>
       <td data-label="Present" class="sentence">${item.present}</td>
@@ -17043,19 +17152,375 @@ searchBtn.addEventListener('click', () => {
     searchResultsBody.appendChild(tr);
   });
 
-  searchResultsBody.querySelectorAll('button.btn-row').forEach((btn, idx) => {
-    btn.addEventListener('click', () => {
-      const item = currentSearchResults[idx];
-      speakVerb({
-        "German verb": item.germanVerb,
-        "English meaning": item.englishMeaning,
-        "present tense": item.present,
-        "past tense": item.past,
-        "future tense": item.future
+  searchResultsBody
+    .querySelectorAll("button.btn-row")
+    .forEach((btn, idx) => {
+      btn.addEventListener("click", () => {
+        const item = currentSearchResults[idx];
+        speakVerb({
+          "German verb": item.germanVerb,
+          "English meaning": item.englishMeaning,
+          "present tense": item.present,
+          "past tense": item.past,
+          "future tense": item.future === "–" ? "" : item.future
+        });
       });
     });
+}
+
+searchBtn.addEventListener("click", performSearch);
+
+searchInput.addEventListener("keydown", e => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    performSearch();
+  }
+});
+
+function insertAtCursor(input, char) {
+  const start = input.selectionStart || 0;
+  const end = input.selectionEnd || 0;
+  const value = input.value || "";
+  input.value = value.slice(0, start) + char + value.slice(end);
+  const newPos = start + char.length;
+  input.setSelectionRange(newPos, newPos);
+  input.focus();
+  showAutocompleteSuggestions(input.value);
+}
+
+umlautKeyboard.addEventListener("click", e => {
+  const btn = e.target.closest(".umlaut-key");
+  if (!btn) return;
+  const char = btn.dataset.char;
+  insertAtCursor(searchInput, char);
+});
+
+function showAutocompleteSuggestions(value) {
+  const query = value.trim().toLowerCase();
+  autocompleteList.innerHTML = "";
+  if (!query) return;
+
+  const suggestions = uniqueVerbsForSearch
+    .filter(v => v.toLowerCase().startsWith(query))
+    .slice(0, 8);
+
+  if (suggestions.length === 0) return;
+
+  suggestions.forEach(verb => {
+    const div = document.createElement("div");
+    div.className = "autocomplete-item";
+    div.textContent = verb;
+    div.addEventListener("click", () => {
+      searchInput.value = verb;
+      autocompleteList.innerHTML = "";
+      searchInput.focus();
+    });
+    autocompleteList.appendChild(div);
+  });
+}
+
+searchInput.addEventListener("input", e => {
+  showAutocompleteSuggestions(e.target.value);
+});
+
+// ==================== TESTER FUNCTIONALITY ====================
+const btnMeaningTest = document.getElementById("btnMeaningTest");
+const btnConjugationTest = document.getElementById("btnConjugationTest");
+const testerConjugationTenseControls = document.getElementById(
+  "testerConjugationTenseControls"
+);
+const tenseButtons = testerConjugationTenseControls.querySelectorAll(
+  ".tense-btn"
+);
+const testerContent = document.getElementById("testerContent");
+const testerFeedback = document.getElementById("testerFeedback");
+const testerScoreEl = document.getElementById("testerScore");
+const testerResetBtn = document.getElementById("testerResetBtn");
+const testerNextBtn = document.getElementById("testerNextBtn");
+const alphaChips = document.querySelectorAll(".alpha-chip");
+
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function rebuildTesterPool() {
+  testerState.pool = allVerbEntries.filter(entry => {
+    if (testerState.alphaFilter === "ALL") return true;
+    return entry.alphaLetter === testerState.alphaFilter;
+  });
+}
+
+function resetTesterScore() {
+  testerState.scoreCorrect = 0;
+  testerState.scoreTotal = 0;
+  updateTesterScore();
+}
+
+function updateTesterScore() {
+  testerScoreEl.textContent = `Score: ${testerState.scoreCorrect} / ${testerState.scoreTotal}`;
+}
+
+function clearTesterFeedback() {
+  testerFeedback.textContent = "";
+  testerFeedback.classList.remove("correct", "wrong");
+}
+
+function setTesterMode(mode) {
+  if (mode !== "meaning" && mode !== "conjugation") return;
+  testerState.mode = mode;
+  testerState.currentIndex = null;
+  testerState.lock = false;
+
+  btnMeaningTest.classList.toggle("active", mode === "meaning");
+  btnConjugationTest.classList.toggle("active", mode === "conjugation");
+  testerConjugationTenseControls.classList.toggle(
+    "hidden",
+    mode !== "conjugation"
+  );
+
+  rebuildTesterPool();
+  resetTesterScore();
+  loadNextTesterQuestion();
+}
+
+function setConjugationTense(tense) {
+  testerState.conjugationTense = tense;
+  tenseButtons.forEach(btn =>
+    btn.classList.toggle("active", btn.dataset.tense === tense)
+  );
+  testerState.currentIndex = null;
+  testerState.lock = false;
+  rebuildTesterPool();
+  resetTesterScore();
+  loadNextTesterQuestion();
+}
+
+function setAlphaFilter(letter) {
+  testerState.alphaFilter = letter;
+  alphaChips.forEach(chip =>
+    chip.classList.toggle("active", chip.dataset.letter === letter)
+  );
+  testerState.currentIndex = null;
+  testerState.lock = false;
+  rebuildTesterPool();
+  resetTesterScore();
+  loadNextTesterQuestion();
+}
+
+btnMeaningTest.addEventListener("click", () => setTesterMode("meaning"));
+btnConjugationTest.addEventListener("click", () =>
+  setTesterMode("conjugation")
+);
+
+tenseButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    setConjugationTense(btn.dataset.tense);
   });
 });
 
-// ==================== INITIAL RENDER ====================
+alphaChips.forEach(chip => {
+  chip.addEventListener("click", () => {
+    setAlphaFilter(chip.dataset.letter);
+  });
+});
+
+testerResetBtn.addEventListener("click", () => {
+  rebuildTesterPool();
+  resetTesterScore();
+  loadNextTesterQuestion();
+});
+
+testerNextBtn.addEventListener("click", () => {
+  loadNextTesterQuestion();
+});
+
+function pickRandomIndexFromPool() {
+  if (!testerState.pool.length) return null;
+  let idx = Math.floor(Math.random() * testerState.pool.length);
+  // avoid immediate repetition if possible
+  if (
+    testerState.currentIndex !== null &&
+    testerState.pool.length > 1 &&
+    idx === testerState.currentIndex
+  ) {
+    idx = (idx + 1) % testerState.pool.length;
+  }
+  return idx;
+}
+
+function loadNextTesterQuestion() {
+  clearTesterFeedback();
+  testerState.lock = false;
+
+  if (!testerState.pool || testerState.pool.length === 0) {
+    testerContent.innerHTML =
+      '<p style="text-align:center; color:#999;">No verbs found for this letter / selection.</p>';
+    return;
+  }
+
+  const idx = pickRandomIndexFromPool();
+  testerState.currentIndex = idx;
+  const entry = testerState.pool[idx];
+
+  if (testerState.mode === "meaning") {
+    loadMeaningQuestion(entry);
+  } else {
+    loadConjugationQuestion(entry);
+  }
+}
+
+function loadMeaningQuestion(entry) {
+  const correctMeaning = entry.meaning || "(no meaning)";
+
+  // Speak aloud when question loads
+  setTimeout(() => {
+    speak(entry.verb, "de-DE");
+  }, 300);
+
+  // gather distractors
+  const distractors = shuffleArray(
+    allVerbEntries.filter(
+      e => e.meaning && e.meaning !== correctMeaning
+    )
+  )
+    .slice(0, 3)
+    .map(e => e.meaning);
+
+  const options = shuffleArray([correctMeaning, ...distractors]);
+
+  testerContent.innerHTML = `
+    <div class="meaning-test">
+      <div class="tester-verb">${entry.verb}</div>
+      <div class="meaning-options">
+        ${options
+          .map(
+            (opt, idx) =>
+              `<button type="button" class="option-btn" data-idx="${idx}">${opt}</button>`
+          )
+          .join("")}
+      </div>
+    </div>
+  `;
+
+  const optionButtons = testerContent.querySelectorAll(".option-btn");
+  optionButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      if (testerState.lock) return;
+      testerState.lock = true;
+      const selectedText = btn.textContent.trim();
+      const isCorrect = selectedText === correctMeaning;
+
+      testerState.scoreTotal++;
+      if (isCorrect) testerState.scoreCorrect++;
+
+      optionButtons.forEach(b => {
+        const text = b.textContent.trim();
+        b.classList.remove("correct", "wrong");
+        if (text === correctMeaning) {
+          b.classList.add("correct");
+        } else if (b === btn && !isCorrect) {
+          b.classList.add("wrong");
+        }
+      });
+
+      testerFeedback.textContent = isCorrect
+        ? "Correct! ✅"
+        : `Wrong ❌ Correct answer: ${correctMeaning}`;
+      testerFeedback.classList.toggle("correct", isCorrect);
+      testerFeedback.classList.toggle("wrong", !isCorrect);
+      updateTesterScore();
+
+      // Optional: speak feedback
+      if (isCorrect) {
+        speak("Richtig!", "de-DE");
+      } else {
+        speak("Falsch!", "de-DE");
+        setTimeout(() => speak(entry.verb, "de-DE"), 800);
+      }
+
+      setTimeout(() => {
+        loadNextTesterQuestion();
+      }, 1700);
+    });
+  });
+}
+
+
+
+function loadConjugationQuestion(entry) {
+  const tense = testerState.conjugationTense;
+  const tenseKey =
+    tense === "present"
+      ? "present"
+      : tense === "past"
+      ? "past"
+      : "future";
+  const tenseLabel =
+    tense === "present"
+      ? "Present tense"
+      : tense === "past"
+      ? "Past tense"
+      : "Future tense";
+
+  testerContent.innerHTML = `
+    <div class="conj-test">
+      <div class="tester-verb">${entry.verb}</div>
+      <div class="tester-pronoun">Pronoun: ${entry.pronoun}</div>
+      <span class="conj-test-label">Type the ${tenseLabel} conjugation:</span>
+      <input type="text" id="conjAnswerInput" autocomplete="off" />
+      <button id="conjCheckBtn" class="btn btn-row">Check</button>
+    </div>
+  `;
+
+  const input = document.getElementById("conjAnswerInput");
+  const checkBtn = document.getElementById("conjCheckBtn");
+  input.focus();
+
+  checkBtn.addEventListener("click", () => {
+    if (testerState.lock) return;
+    testerState.lock = true;
+
+    const expectedRaw =
+      tense === "present"
+        ? entry.present
+        : tense === "past"
+        ? entry.past
+        : entry.future;
+    const userRaw = input.value || "";
+
+    function normalize(str) {
+      return (str || "")
+        .trim()
+        .replace(/\s+/g, " ")
+        .toLowerCase();
+    }
+
+    const expected = normalize(expectedRaw);
+    const userAns = normalize(userRaw);
+
+    testerState.scoreTotal++;
+    let isCorrect = false;
+    if (expected && userAns && expected === userAns) {
+      isCorrect = true;
+      testerState.scoreCorrect++;
+    }
+
+    testerFeedback.textContent = isCorrect
+      ? "Correct! ✅"
+      : `Wrong ❌  Correct: "${expectedRaw || "-"}"`;
+    testerFeedback.classList.toggle("correct", isCorrect);
+    testerFeedback.classList.toggle("wrong", !isCorrect);
+    updateTesterScore();
+  });
+}
+
+// ==================== INITIAL SETUP ====================
+buildAllVerbEntries();
+rebuildTesterPool();
 renderTable();
+setTesterMode("meaning");
